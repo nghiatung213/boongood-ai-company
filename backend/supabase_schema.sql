@@ -192,3 +192,12 @@ CREATE POLICY "Allow read tasks for realtime dashboard"
   ON public.tasks FOR SELECT
   TO anon, authenticated
   USING (true);
+
+-- ----------------------------------------------------------------------------
+-- 8. Cấp quyền tường minh cho service_role (Backend) và anon/authenticated (Dashboard)
+--    (Bắt buộc trên các project Supabase mới để tránh lỗi 42501 permission denied)
+-- ----------------------------------------------------------------------------
+GRANT USAGE ON SCHEMA public TO anon, authenticated, service_role;
+GRANT ALL PRIVILEGES ON TABLE public.agents, public.chat_messages, public.tasks TO service_role;
+GRANT SELECT ON TABLE public.agents, public.tasks TO anon, authenticated;
+
