@@ -35,19 +35,36 @@ flowchart LR
 | Lớp | Thành phần | Thư mục mã nguồn | Trách nhiệm chính |
 | :--- | :--- | :--- | :--- |
 | **Lớp 1 — Workspace Storage** | Google Drive, Google Sheets, Google Apps Script (`Code.gs`) | `workspace-bridge/` | Lưu trữ toàn bộ sản phẩm thật (báo cáo nghiên cứu thị trường, prototype/draft, bảng tính tài chính) và sổ cái trung tâm. Cung cấp HTTP JSON Bridge bảo vệ bằng `API_SECRET`. |
-| **Lớp 2 — Backend & State** | Google Cloud Run, Gemini API, Supabase | `backend/` *(Giai đoạn 2)* | Điều phối các AI Agent tự suy luận, gọi công cụ (web search, gọi Workspace Bridge), cập nhật trạng thái vào Supabase và dừng quy trình chờ CEO phê duyệt. |
+| **Lớp 2 — Backend & State** | Google Cloud Run (FastAPI), Gemini API, Supabase | `backend/` *(Giai đoạn 2)* | Vận hành theo mô hình **Chatbot-First**: mặc định `PASSIVE` (trả lời hỏi đáp & góp ý ảnh tối ưu token, 0 tool schema, nút lưu thủ công 0 token sang Drive) và tùy chọn bật `AUTONOMOUS` (tối đa 3 vòng suy luận, dừng chờ CEO duyệt). 0 token khi nhàn rỗi. |
 | **Lớp 3 — 3D Dashboard** | Three.js Web App | `frontend/` *(Giai đoạn 3)* | Hiển thị văn phòng 3D theo trạng thái thực từ Supabase Realtime; cho phép CEO xem tiến độ, duyệt sản phẩm và mở trực tiếp link file trên Drive/Sheets. |
 
 ---
 
-## 2. Quy ước trạng thái nhân vật (Agent States)
+## 2. Quy ước trạng thái nhân vật & Đội hình 6 nhân vật Friends
 
-Mọi AI Agent trong hệ thống (từ Backend ghi vào Supabase cho đến Frontend 3D render chuyển động) bắt buộc sử dụng đúng 4 mã trạng thái sau:
+Mọi nhân vật trong hệ thống (từ Backend ghi vào Supabase cho đến Frontend 3D render chuyển động) bắt buộc sử dụng đúng 4 mã trạng thái `current_state` và 2 chế độ vận hành `mode`:
+
+### Chế độ vận hành (`mode` — Chatbot-First)
+- **`PASSIVE` (Mặc định):** Chế độ Chatbot hỏi ý kiến / gửi ảnh góp ý (`POST /api/chat`). Chỉ nạp tối đa 8 tin nhắn gần nhất, không đính kèm tool schema nặng, hỗ trợ tùy chọn Google Search và nút lưu thủ công sang Drive/Sheets (`POST /api/chat/save-to-drive` — 0 token AI). Dùng biến `GEMINI_MODEL_PASSIVE`.
+- **`AUTONOMOUS` (Tùy chọn mở rộng):** Bật riêng từng nhân vật qua `PATCH /api/agents/:id/mode`. Khi nhận việc (`POST /api/tasks`), giới hạn cứng tối đa **3 vòng suy luận**, gọi Workspace Bridge xuất bản nháp vào `00_Inbox_Drafts` và dừng ở `WAITING_APPROVAL` chờ CEO duyệt (`POST /api/tasks/:id/review`). Dùng biến `GEMINI_MODEL_AUTONOMOUS`.
+
+### Đội hình 6 nhân vật Friends (bảng `agents` trong Supabase)
+
+| `id` | Nhân vật | Vai trò chuyên môn |
+| :--- | :--- | :--- |
+| `rachel` | Rachel Green | Thương hiệu & Thiết kế (Brand, bao bì, thẩm mỹ hình ảnh) |
+| `monica` | Monica Geller | Vận hành & Sản phẩm (Quy trình, chất lượng, kế hoạch triển khai) |
+| `chandler` | Chandler Bing | Dữ liệu, Tài chính & Copywriting (Giá vốn, biên lợi nhuận, nội dung bán hàng) |
+| `ross` | Ross Geller | Nghiên cứu & Pháp lý (Thị trường, đối thủ, quy định & nhãn mác) |
+| `joey` | Joey Tribbiani | Truyền thông & Video (Kịch bản TikTok/Reels, hook thu hút, social media) |
+| `phoebe` | Phoebe Buffay | Trải nghiệm Khách hàng & Ý tưởng Sáng tạo (CSKH, unboxing, ý tưởng độc đáo) |
+
+### Quy ước trạng thái (`current_state`)
 
 | Trạng thái | Ý nghĩa nghiệp vụ | Hành vi hiển thị trên 3D Dashboard |
 | :--- | :--- | :--- |
 | `IDLE` | Agent đang rảnh, chưa được giao nhiệm vụ mới. | Đứng/ngồi nghỉ tại bàn làm việc hoặc khu vực thư giãn; không có chỉ báo bận. |
-| `WORKING` | Agent đang tự suy luận, thu thập dữ liệu, tạo tài liệu hoặc tính toán. | Ngồi tập trung tại bàn làm việc (gõ máy tính), hiển thị nhiệm vụ đang xử lý. |
+| `WORKING` | Agent đang trả lời tư vấn, phân tích ảnh, tạo tài liệu hoặc tính toán. | Ngồi tập trung tại bàn làm việc (gõ máy tính), hiển thị nhiệm vụ đang xử lý. |
 | `COLLABORATING` | Agent đang trao đổi, bàn giao dữ liệu hoặc phối hợp với Agent khác. | Di chuyển tới bàn đồng nghiệp hoặc khu họp nhóm để tương tác. |
 | `WAITING_APPROVAL` | Agent đã tạo bản nháp trong `00_Inbox_Drafts` và dừng chờ CEO duyệt. | Di chuyển tới khu vực phòng CEO (hoặc giơ tín hiệu chờ duyệt), gắn link file Drive để CEO mở và duyệt/góp ý. |
 
@@ -56,12 +73,12 @@ Mọi AI Agent trong hệ thống (từ Backend ghi vào Supabase cho đến Fro
 ```mermaid
 stateDiagram-v2
     [*] --> IDLE
-    IDLE --> WORKING : Nhận Task mới
+    IDLE --> WORKING : Nhận tin nhắn Chat hoặc Task mới
+    WORKING --> IDLE : Trả lời xong Chat (PASSIVE)
     WORKING --> COLLABORATING : Cần phối hợp Agent khác
     COLLABORATING --> WORKING : Hoàn tất trao đổi
-    WORKING --> WAITING_APPROVAL : Đẩy sản phẩm vào 00_Inbox_Drafts
-    WAITING_APPROVAL --> WORKING : CEO yêu cầu chỉnh sửa (CEO_Feedback)
-    WAITING_APPROVAL --> IDLE : CEO duyệt (approve_file -> APPROVED)
+    WORKING --> WAITING_APPROVAL : Đẩy sản phẩm vào 00_Inbox_Drafts (AUTONOMOUS)
+    WAITING_APPROVAL --> IDLE : CEO duyệt (APPROVED) hoặc góp ý dừng (REVISION_REQUESTED)
 ```
 
 ---
@@ -109,6 +126,6 @@ Tất cả request từ Lớp 2 (hoặc script test) gửi tới Web App URL b�
 
 ## 5. Lộ trình triển khai
 
-- **Giai đoạn 1 (Hiện tại):** Thiết lập cấu trúc dự án, tài liệu kiến trúc và hoàn thiện Lớp 1 (`workspace-bridge/`).
-- **Giai đoạn 2:** Xây dựng Lớp 2 (`backend/`) với Cloud Run, Gemini API và Supabase để điều phối AI Agent gọi Workspace Bridge.
+- **Giai đoạn 1 (Hoàn thành):** Thiết lập cấu trúc dự án, tài liệu kiến trúc và hoàn thiện Lớp 1 (`workspace-bridge/`).
+- **Giai đoạn 2 (Hoàn thành):** Xây dựng Lớp 2 (`backend/`) theo hướng Chatbot-First với FastAPI, Gemini API, Supabase (6 nhân vật Friends) và tích hợp Workspace Bridge, sẵn sàng deploy Cloud Run.
 - **Giai đoạn 3:** Xây dựng Lớp 3 (`frontend/`) với Three.js kết nối Supabase Realtime và mở trực tiếp tài liệu trên Drive/Sheets.
