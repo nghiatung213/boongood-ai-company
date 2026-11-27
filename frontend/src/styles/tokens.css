@@ -1,0 +1,78 @@
+:root {
+  /* Warm Central Perk × BoonGood Stationery Palette */
+  --bg-canvas: #f2e8dc;
+  --surface-glass: rgba(253, 248, 241, 0.88);
+  --surface-solid: #fffdf9;
+  --surface-subtle: #f5ece1;
+  --surface-hover: #efe2d2;
+
+  --ink-primary: #2b1f1a;
+  --ink-secondary: #68554b;
+  --ink-muted: #937f74;
+
+  --accent-sofa: #d66236;
+  --accent-sofa-hover: #be5127;
+  --accent-coffee: #5c3a28;
+  --accent-sage: #4c8c62;
+  --accent-amber: #d49428;
+  --accent-lavender: #7c6699;
+  --accent-danger: #c84b4b;
+
+  --border-hairline: rgba(43, 31, 26, 0.1);
+  --border-strong: rgba(43, 31, 26, 0.18);
+
+  --shadow-sm: 0 2px 8px rgba(43, 31, 26, 0.08);
+  --shadow-md: 0 8px 24px rgba(43, 31, 26, 0.13);
+  --shadow-lg: 0 18px 44px rgba(43, 31, 26, 0.18);
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  --font-sans: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Fraunces', Georgia, serif;
+
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg-canvas);
+  color: var(--ink-primary);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.hidden {
+  display: none !important;
+}
