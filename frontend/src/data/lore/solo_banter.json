@@ -1,0 +1,870 @@
+{
+  "version": "1.0.0",
+  "description": "96 câu độc thoại của 6 nhân vật Friends tại văn phòng 3D BoonGood (16 câu/nhân vật: 6 iconic_classic, 5 deep_cut_lore, 5 office_mood).",
+  "items": [
+    {
+      "id": "solo_rachel_01",
+      "character_id": "rachel",
+      "category": "iconic_classic",
+      "episode_ref": "S01E01",
+      "text": "What if I don't want to be a shoe? What if I want to be a purse? Or a hat? It's a metaphor! Sếp Bông hiểu ý em mà, bao bì BoonGood không thể đóng khung một kiểu cũ kỹ được!",
+      "face_expression": "obsessive_intense",
+      "body_gesture": "point"
+    },
+    {
+      "id": "solo_rachel_02",
+      "character_id": "rachel",
+      "category": "iconic_classic",
+      "episode_ref": "S01E04",
+      "text": "Who's FICA? Why's he getting all my money? Mới lãnh lương tháng đầu mà nhìn bảng khấu trừ muốn xỉu ngang luôn á sếp Bông!",
+      "face_expression": "shock",
+      "body_gesture": "hands_up_panic"
+    },
+    {
+      "id": "solo_rachel_03",
+      "character_id": "rachel",
+      "category": "iconic_classic",
+      "episode_ref": "S02E02",
+      "text": "Oh, I'm sorry. Did my back hurt your knife? Ai trong phòng mới lén đổi bảng màu nhận diện thương hiệu của em mà chưa hỏi ý kiến thế?",
+      "face_expression": "smirk_sarcastic",
+      "body_gesture": "lean_in"
+    },
+    {
+      "id": "solo_rachel_04",
+      "character_id": "rachel",
+      "category": "iconic_classic",
+      "episode_ref": "S04E12",
+      "text": "Oh-oh-oh, he's a transponce... transpondster! Hôm nào sếp Bông hỏi chức danh chính xác của Chandler, em xin phép đoán đại lần nữa nha!",
+      "face_expression": "panic",
+      "body_gesture": "hands_up_panic"
+    },
+    {
+      "id": "solo_rachel_05",
+      "character_id": "rachel",
+      "category": "iconic_classic",
+      "episode_ref": "S08E14",
+      "text": "Okay, no uterus, no opinion. Mấy anh chưa từng tự tay chọn giấy mỹ thuật in hộp quà BoonGood thì đừng góp ý màu pastel của em nha!",
+      "face_expression": "angry",
+      "body_gesture": "point"
+    },
+    {
+      "id": "solo_rachel_06",
+      "character_id": "rachel",
+      "category": "iconic_classic",
+      "episode_ref": "S10E18",
+      "text": "I got off the plane. Bỏ cả chuyến bay đi Paris chỉ để về kịp duyệt mẫu hộp quà mùa lễ cùng sếp Bông đó nha!",
+      "face_expression": "hearts",
+      "body_gesture": "wave"
+    },
+    {
+      "id": "solo_rachel_07",
+      "character_id": "rachel",
+      "category": "deep_cut_lore",
+      "episode_ref": "S01E18",
+      "text": "Your fly's open, Geller. Hihi, mỗi lần Ross định giảng bài dài lê thê về font chữ là em tung chiêu đánh lạc hướng này, hiệu quả trăm phần trăm!",
+      "face_expression": "smirk_sarcastic",
+      "body_gesture": "point"
+    },
+    {
+      "id": "solo_rachel_08",
+      "character_id": "rachel",
+      "category": "deep_cut_lore",
+      "episode_ref": "S05E09",
+      "text": "Well, feminism, yes. But also the robots. Chết rồi, sếp Bông sắp họp review mà em mới đọc kịp trang bìa tài liệu, để em lật nhanh cái!",
+      "face_expression": "panic",
+      "body_gesture": "shrug"
+    },
+    {
+      "id": "solo_rachel_09",
+      "character_id": "rachel",
+      "category": "deep_cut_lore",
+      "episode_ref": "S06E09",
+      "text": "I wasn't supposed to put beef in the trifle! Trời ơi, em vừa dán nhầm hai trang brief vào chung một file thiết kế giống hệt vụ sách nấu ăn dính trang!",
+      "face_expression": "shock",
+      "body_gesture": "hands_up_panic"
+    },
+    {
+      "id": "solo_rachel_10",
+      "character_id": "rachel",
+      "category": "deep_cut_lore",
+      "episode_ref": "S06E11",
+      "text": "Well, there's yore. And, you know, yesteryear. Em bảo mẫu khay trưng bày này lấy cảm hứng cổ điển chứ đâu có mua ở Pottery Barn đâu!",
+      "face_expression": "flirty",
+      "body_gesture": "shrug"
+    },
+    {
+      "id": "solo_rachel_11",
+      "character_id": "rachel",
+      "category": "deep_cut_lore",
+      "episode_ref": "S08E23",
+      "text": "Oh, stupid metric system. Ai đó giúp em đổi 3 centimet sang inch với, canh lề in tem BoonGood nãy giờ mà cứ thấy sai sai!",
+      "face_expression": "facepalm_tired",
+      "body_gesture": "head_shake"
+    },
+    {
+      "id": "solo_rachel_12",
+      "character_id": "rachel",
+      "category": "office_mood",
+      "episode_ref": "S01E01",
+      "text": "I'm gonna go get one of those job things — và thế là từ cô phục vụ đổ nhầm cà phê, giờ em là Giám đốc Thương hiệu của sếp Bông luôn rồi nè!",
+      "face_expression": "happy",
+      "body_gesture": "excited_bounce"
+    },
+    {
+      "id": "solo_rachel_13",
+      "character_id": "rachel",
+      "category": "office_mood",
+      "episode_ref": "S03E10",
+      "text": "I am a terrible waitress, do you know why? Because I don't care. Chứ đụng tới gu thẩm mỹ với hình ảnh BoonGood thì em kỹ tới từng pixel luôn!",
+      "face_expression": "smirk_sarcastic",
+      "body_gesture": "sip_coffee"
+    },
+    {
+      "id": "solo_rachel_14",
+      "character_id": "rachel",
+      "category": "office_mood",
+      "episode_ref": "S01E01",
+      "text": "Everyone I know is either getting married, or getting pregnant, or getting promoted, and I'm getting coffee! Ủa khoan, ly này em tự pha cho mình mà, đỡ tủi thân!",
+      "face_expression": "facepalm_tired",
+      "body_gesture": "sip_coffee"
+    },
+    {
+      "id": "solo_rachel_15",
+      "character_id": "rachel",
+      "category": "office_mood",
+      "episode_ref": "S04E14",
+      "text": "NOOOO! Ai gửi bản in thử mà ép kim bị lệch hai milimet vậy? Đưa ngay đây em kiểm lại trước khi trình sếp Bông!",
+      "face_expression": "panic",
+      "body_gesture": "hands_up_panic"
+    },
+    {
+      "id": "solo_rachel_16",
+      "character_id": "rachel",
+      "category": "office_mood",
+      "episode_ref": "S02E01",
+      "text": "Món quà sếp tặng đẹp xỉu luôn, nhưng... nếu có phiếu đổi trả em hứa lần này KHÔNG mang ra tiệm đổi đâu, thề danh dự!",
+      "face_expression": "laugh",
+      "body_gesture": "wave"
+    },
+    {
+      "id": "solo_monica_01",
+      "character_id": "monica",
+      "category": "iconic_classic",
+      "episode_ref": "S01E01",
+      "text": "Welcome to the real world. It sucks. You're gonna love it. Nhưng yên tâm, vào văn phòng sếp Bông có checklist của em là mọi thứ chạy mượt hết!",
+      "face_expression": "happy",
+      "body_gesture": "wave"
+    },
+    {
+      "id": "solo_monica_02",
+      "character_id": "monica",
+      "category": "iconic_classic",
+      "episode_ref": "S01E01",
+      "text": "I KNOW! Tỷ lệ khách quay lại của BoonGood tuần này tăng vọt kìa, công sức em siết chuẩn QC từng hộp bánh không uổng chút nào!",
+      "face_expression": "happy",
+      "body_gesture": "excited_bounce"
+    },
+    {
+      "id": "solo_monica_03",
+      "character_id": "monica",
+      "category": "iconic_classic",
+      "episode_ref": "S05E05",
+      "text": "Guys, rules are good! Rules help control the fun! Không có quy tắc đặt tên file thì làm sao thư mục 00_Inbox_Drafts của sếp Bông sạch bóng được!",
+      "face_expression": "obsessive_intense",
+      "body_gesture": "point"
+    },
+    {
+      "id": "solo_monica_04",
+      "character_id": "monica",
+      "category": "iconic_classic",
+      "episode_ref": "S04E11",
+      "text": "Seven! Seven! Seven! Seven! ... Seven. Ơ kìa, em đang đếm 7 bước kiểm định chất lượng sản phẩm trước khi đóng gói giao khách thôi mà!",
+      "face_expression": "obsessive_intense",
+      "body_gesture": "excited_bounce"
+    },
+    {
+      "id": "solo_monica_05",
+      "character_id": "monica",
+      "category": "iconic_classic",
+      "episode_ref": "S05E14",
+      "text": "Because you're on my team. And my team always wins. Chiến dịch ra mắt sản phẩm mới của sếp Bông lần này nhất định đứng top!",
+      "face_expression": "happy",
+      "body_gesture": "point"
+    },
+    {
+      "id": "solo_monica_06",
+      "character_id": "monica",
+      "category": "iconic_classic",
+      "episode_ref": "S04E12",
+      "text": "That's not even a word! Ai vừa viết báo cáo vận hành mà tự bịa thuật ngữ mới thế? Sửa ngay trước khi em lôi máy in nhãn ra nha!",
+      "face_expression": "angry",
+      "body_gesture": "hands_up_panic"
+    },
+    {
+      "id": "solo_monica_07",
+      "character_id": "monica",
+      "category": "deep_cut_lore",
+      "episode_ref": "S03E03",
+      "text": "I needed a plan. What's the opposite of stress? Jam! Hôm qua deadline dí quá nên 4 giờ sáng em dậy nấu luôn 12 hũ mứt thử công thức mới cho BoonGood!",
+      "face_expression": "obsessive_intense",
+      "body_gesture": "idle_talk"
+    },
+    {
+      "id": "solo_monica_08",
+      "character_id": "monica",
+      "category": "deep_cut_lore",
+      "episode_ref": "S07E09",
+      "text": "No! You don't know the system! There'll be nobody messing with the system! Ai đổi thứ tự 11 loại khăn lau quầy pantry của em là biết tay liền!",
+      "face_expression": "angry",
+      "body_gesture": "point"
+    },
+    {
+      "id": "solo_monica_09",
+      "character_id": "monica",
+      "category": "deep_cut_lore",
+      "episode_ref": "S06E12",
+      "text": "I'm not sick! Getting sick is for weaklings... I'm fine-d! Sổ mũi xíu thôi chứ bảng tiến độ của sếp Bông em vẫn chạy đúng từng phút!",
+      "face_expression": "obsessive_intense",
+      "body_gesture": "head_shake"
+    },
+    {
+      "id": "solo_monica_10",
+      "character_id": "monica",
+      "category": "deep_cut_lore",
+      "episode_ref": "S07E08",
+      "text": "Nobody cares about the Dakotas! Thì đúng là danh sách nhà cung cấp em sót đúng 1 tỉnh xa lắc, nhưng 62 tỉnh còn lại chuẩn từng số điện thoại nha!",
+      "face_expression": "angry",
+      "body_gesture": "shrug"
+    },
+    {
+      "id": "solo_monica_11",
+      "character_id": "monica",
+      "category": "deep_cut_lore",
+      "episode_ref": "S04E09",
+      "text": "I couldn't eat it. I have five friends who couldn't eat it, and one of them eats books. Mẫu nguyên liệu lô này không đạt chuẩn Monica-clean, em loại thẳng tay!",
+      "face_expression": "smirk_sarcastic",
+      "body_gesture": "head_shake"
+    },
+    {
+      "id": "solo_monica_12",
+      "character_id": "monica",
+      "category": "office_mood",
+      "episode_ref": "S02E23",
+      "text": "You call eight hours alone with my label maker a waste of time? Dán nhãn từng hộp mẫu lưu kho giúp sếp Bông tìm một phát trúng ngay đó!",
+      "face_expression": "obsessive_intense",
+      "body_gesture": "idle_talk"
+    },
+    {
+      "id": "solo_monica_13",
+      "character_id": "monica",
+      "category": "office_mood",
+      "episode_ref": "S01E15",
+      "text": "I've waited seven years for an opportunity like this and you can't wait 4-and-a-half minutes? Khoan giao gấp nha, để em kiểm nốt lớp băng keo niêm phong!",
+      "face_expression": "angry",
+      "body_gesture": "point"
+    },
+    {
+      "id": "solo_monica_14",
+      "character_id": "monica",
+      "category": "office_mood",
+      "episode_ref": "S08E14",
+      "text": "If I am harsh with you, it's only because you're doing it wrong. Cứ làm đúng checklist vận hành 5 bước của em là em dịu dàng liền à!",
+      "face_expression": "smirk_sarcastic",
+      "body_gesture": "lean_in"
+    },
+    {
+      "id": "solo_monica_15",
+      "character_id": "monica",
+      "category": "office_mood",
+      "episode_ref": "S04E08",
+      "text": "Em vừa dùng máy hút bụi cầm tay Dustbuster hút sạch máy hút bụi lớn rồi. Giá có cái máy mini nữa để hút cho cái Dustbuster thì đời mới trọn vẹn!",
+      "face_expression": "happy",
+      "body_gesture": "idle_talk"
+    },
+    {
+      "id": "solo_monica_16",
+      "character_id": "monica",
+      "category": "office_mood",
+      "episode_ref": "S01E18",
+      "text": "We will play you again, and we will win! KPI giao hàng đúng hẹn tháng này 99.8% rồi, mục tiêu của em là tròn 100% không lệch một đơn!",
+      "face_expression": "obsessive_intense",
+      "body_gesture": "excited_bounce"
+    },
+    {
+      "id": "solo_chandler_01",
+      "character_id": "chandler",
+      "category": "iconic_classic",
+      "episode_ref": "S04E08",
+      "text": "I'm not great at the advice. Can I interest you in a sarcastic comment? Some cheese? Nhưng nếu sếp Bông hỏi biên lợi nhuận thì em tính nghiêm túc trăm phần trăm!",
+      "face_expression": "smirk_sarcastic",
+      "body_gesture": "shrug"
+    },
+    {
+      "id": "solo_chandler_02",
+      "character_id": "chandler",
+      "category": "iconic_classic",
+      "episode_ref": "S06E24",
+      "text": "Hi, I'm Chandler. I make jokes when I'm uncomfortable. Nhất là mỗi lần mở bảng chi phí quảng cáo mà thấy ROAS đang thở oxy!",
+      "face_expression": "facepalm_tired",
+      "body_gesture": "wave"
+    },
+    {
+      "id": "solo_chandler_03",
+      "character_id": "chandler",
+      "category": "iconic_classic",
+      "episode_ref": "S02E01",
+      "text": "OK. You have to stop the Q-tip when there's resistance! Ai vừa định giảm giá 50% mà không trừ giá vốn bao bì với phí ship vậy trời?",
+      "face_expression": "smirk_sarcastic",
+      "body_gesture": "point"
+    },
+    {
+      "id": "solo_chandler_04",
+      "character_id": "chandler",
+      "category": "iconic_classic",
+      "episode_ref": "S04E15",
+      "text": "Hi. I need one fake ticket to Yemen. 15 Yemen Road, Yemen. Nếu cuộc họp chốt ngân sách hôm nay kéo quá 3 tiếng là em lên máy bay thật đó!",
+      "face_expression": "panic",
+      "body_gesture": "hands_up_panic"
+    },
+    {
+      "id": "solo_chandler_05",
+      "character_id": "chandler",
+      "category": "iconic_classic",
+      "episode_ref": "S10E03",
+      "text": "Was that place, THE SUN? Nhìn bảng số liệu tăng trưởng xanh lè chói lóa của BoonGood tuần này mà em tưởng mình đi nhầm phòng luôn!",
+      "face_expression": "laugh",
+      "body_gesture": "point"
+    },
+    {
+      "id": "solo_chandler_06",
+      "character_id": "chandler",
+      "category": "iconic_classic",
+      "episode_ref": "S01E07",
+      "text": "Gum would be perfection... Trời ơi, sao vừa nãy gửi tin nhắn cho sếp Bông mình lại dùng chữ mỹ miều quá lố thế nhỉ? I loathe myself!",
+      "face_expression": "facepalm_tired",
+      "body_gesture": "head_shake"
+    },
+    {
+      "id": "solo_chandler_07",
+      "character_id": "chandler",
+      "category": "deep_cut_lore",
+      "episode_ref": "S01E15",
+      "text": "I just don't want to be a guy who sits in his office worrying about the WENUS. May quá sang công ty sếp Bông làm copywriting với Finance_Models vui hơn hẳn!",
+      "face_expression": "happy",
+      "body_gesture": "sip_coffee"
+    },
+    {
+      "id": "solo_chandler_08",
+      "character_id": "chandler",
+      "category": "deep_cut_lore",
+      "episode_ref": "S02E04",
+      "text": "Why, yes, pressing my third nipple opens the delivery entrance to the magical land of Narnia. Còn bấm nút này thì chỉ mở file Finance_Models thôi!",
+      "face_expression": "smirk_sarcastic",
+      "body_gesture": "point"
+    },
+    {
+      "id": "solo_chandler_09",
+      "character_id": "chandler",
+      "category": "deep_cut_lore",
+      "episode_ref": "S02E16",
+      "text": "Mine is the red one! Oh God. Can open, worms everywhere. Mới mở bảng Excel cũ ra sửa một công thức mà nhảy lỗi dây chuyền 40 ô liền!",
+      "face_expression": "shock",
+      "body_gesture": "hands_up_panic"
+    },
+    {
+      "id": "solo_chandler_10",
+      "character_id": "chandler",
+      "category": "deep_cut_lore",
+      "episode_ref": "S06E11",
+      "text": "And I am not 'blah.' I am a hoot! Ba dòng tiêu đề bán hàng em vừa viết bén ngọt thế này mà không ai thả tim là em dỗi đó nha!",
+      "face_expression": "smirk_sarcastic",
+      "body_gesture": "lean_in"
+    },
+    {
+      "id": "solo_chandler_11",
+      "character_id": "chandler",
+      "category": "deep_cut_lore",
+      "episode_ref": "S06E14",
+      "text": "Yes, it was very sad when the guy stopped drawing the deer. Còn em thì chỉ rơi nước mắt khi thấy tiền hộp đóng gói tăng 5% thôi!",
+      "face_expression": "neutral",
+      "body_gesture": "shrug"
+    },
+    {
+      "id": "solo_chandler_12",
+      "character_id": "chandler",
+      "category": "office_mood",
+      "episode_ref": "S01E22",
+      "text": "That is so NOT true! Em đâu có nói kiểu kéo dài chữ 'BE' đâu — Could this margin BE any cleaner?! ... Oh, shut up!",
+      "face_expression": "laugh",
+      "body_gesture": "head_shake"
+    },
+    {
+      "id": "solo_chandler_13",
+      "character_id": "chandler",
+      "category": "office_mood",
+      "episode_ref": "S02E08",
+      "text": "Oh, no! My wallet's too small for my 50s and my diamond shoes are too tight! Khoe khéo đơn nổ cháy hàng xong lại giả vờ than mệt là nghề của tụi mình!",
+      "face_expression": "smirk_sarcastic",
+      "body_gesture": "idle_talk"
+    },
+    {
+      "id": "solo_chandler_14",
+      "character_id": "chandler",
+      "category": "office_mood",
+      "episode_ref": "S03E04",
+      "text": "I'm hopeless and awkward and desperate for love — nhưng mà biên lợi nhuận gộp 58% thì em tính cực kỳ tự tin nha sếp Bông!",
+      "face_expression": "happy",
+      "body_gesture": "shrug"
+    },
+    {
+      "id": "solo_chandler_15",
+      "character_id": "chandler",
+      "category": "office_mood",
+      "episode_ref": "S05E12",
+      "text": "Hello, children! Hôm nay không cần bật chế độ 'work laugh' giả trân nữa, vì sếp Bông nhà mình dễ thương thật sự!",
+      "face_expression": "happy",
+      "body_gesture": "wave"
+    },
+    {
+      "id": "solo_chandler_16",
+      "character_id": "chandler",
+      "category": "office_mood",
+      "episode_ref": "S10E18",
+      "text": "Sure. Where? Chốt xong bảng tính COGS hôm nay rồi, cả phòng đi làm ly cà phê ăn mừng thôi nào!",
+      "face_expression": "smirk_sarcastic",
+      "body_gesture": "sip_coffee"
+    },
+    {
+      "id": "solo_ross_01",
+      "character_id": "ross",
+      "category": "iconic_classic",
+      "episode_ref": "S04E01",
+      "text": "WE WERE ON A BREAK! Khoan đã, em chỉ nghỉ giải lao uống nước 5 phút giữa hai báo cáo nghiên cứu thị trường thôi mà, có trốn việc đâu!",
+      "face_expression": "angry",
+      "body_gesture": "hands_up_panic"
+    },
+    {
+      "id": "solo_ross_02",
+      "character_id": "ross",
+      "category": "iconic_classic",
+      "episode_ref": "S05E16",
+      "text": "Pivot! Pivot! Piv-ot! PIVOT! Nếu phân khúc giá cũ cạnh tranh quá khốc liệt, em đề xuất sếp Bông xoay trục định vị sang quà tặng cao cấp ngay!",
+      "face_expression": "obsessive_intense",
+      "body_gesture": "point"
+    },
+    {
+      "id": "solo_ross_03",
+      "character_id": "ross",
+      "category": "iconic_classic",
+      "episode_ref": "S05E09",
+      "text": "You threw my sandwich away? My sandwich? MY SANDWICH?! Ai vừa lỡ tay xóa file phân tích đối thủ bản nháp có cả chú thích 'Moist Maker' của em vậy?!",
+      "face_expression": "angry",
+      "body_gesture": "hands_up_panic"
+    },
+    {
+      "id": "solo_ross_04",
+      "character_id": "ross",
+      "category": "iconic_classic",
+      "episode_ref": "S10E02",
+      "text": "I'm fine. Totally fine! I don't know why it's coming out all loud and squeaky... Em hoàn toàn bình tĩnh khi đọc 120 trang quy định ghi nhãn hàng hóa mà! FAJITAS!",
+      "face_expression": "panic",
+      "body_gesture": "hands_up_panic"
+    },
+    {
+      "id": "solo_ross_05",
+      "character_id": "ross",
+      "category": "iconic_classic",
+      "episode_ref": "S06E17",
+      "text": "Danger! Unagi! Không phải món lươn đâu nha, đó là trạng thái cảnh giác pháp lý tuyệt đối trước mọi rủi ro đăng ký bảo hộ thương hiệu cho BoonGood!",
+      "face_expression": "obsessive_intense",
+      "body_gesture": "point"
+    },
+    {
+      "id": "solo_ross_06",
+      "character_id": "ross",
+      "category": "iconic_classic",
+      "episode_ref": "S10E03",
+      "text": "Mississippilessly?! Hóa ra công cụ đo thời gian hẹn giờ không có đếm chữ 'Mississippi', làm em canh lố thời gian gửi báo cáo mất rồi!",
+      "face_expression": "shock",
+      "body_gesture": "hands_up_panic"
+    },
+    {
+      "id": "solo_ross_07",
+      "character_id": "ross",
+      "category": "deep_cut_lore",
+      "episode_ref": "S04E01",
+      "text": "18 pages, front and back! By the way, Y-O-U-apostrophe-R-E means 'you are', Y-O-U-R means 'your'! Em vừa rà xong chính tả trên toàn bộ tem nhãn sản phẩm cho sếp Bông!",
+      "face_expression": "obsessive_intense",
+      "body_gesture": "point"
+    },
+    {
+      "id": "solo_ross_08",
+      "character_id": "ross",
+      "category": "deep_cut_lore",
+      "episode_ref": "S04E15",
+      "text": "I'm Red Ross! Đừng coi thường bản nghiên cứu của em — đối thủ nào tung chiêu phá giá em bóc tách số liệu tới tận xương tủy luôn!",
+      "face_expression": "angry",
+      "body_gesture": "lean_in"
+    },
+    {
+      "id": "solo_ross_09",
+      "character_id": "ross",
+      "category": "deep_cut_lore",
+      "episode_ref": "S06E04",
+      "text": "All right, I'm not English, I'm from Long Island. Hồi hộp lúc thuyết trình bản phân tích thị trường quá nên giọng em hơi lên gân chút xíu thôi!",
+      "face_expression": "facepalm_tired",
+      "body_gesture": "shrug"
+    },
+    {
+      "id": "solo_ross_10",
+      "character_id": "ross",
+      "category": "deep_cut_lore",
+      "episode_ref": "S07E18",
+      "text": "Well, we don't know for sure, but in my head a Velociraptor sounded like *SKREEE*! Of course, this is just conjecture — giống dự báo xu hướng quý tới vậy!",
+      "face_expression": "happy",
+      "body_gesture": "excited_bounce"
+    },
+    {
+      "id": "solo_ross_11",
+      "character_id": "ross",
+      "category": "deep_cut_lore",
+      "episode_ref": "S02E05",
+      "text": "If Dino was a velociraptor, he would have eaten the Flintstones! Đã làm nghiên cứu là phải chính xác từng chi tiết, dù là chuyện nhỏ nhất!",
+      "face_expression": "obsessive_intense",
+      "body_gesture": "idle_talk"
+    },
+    {
+      "id": "solo_ross_12",
+      "character_id": "ross",
+      "category": "office_mood",
+      "episode_ref": "S05E11",
+      "text": "The lotion and the powder have made a paste! Trời ơi, em vừa định tự sửa công thức lọc dữ liệu mà càng sửa nó càng vón cục lại!",
+      "face_expression": "panic",
+      "body_gesture": "hands_up_panic"
+    },
+    {
+      "id": "solo_ross_13",
+      "character_id": "ross",
+      "category": "office_mood",
+      "episode_ref": "S02E03",
+      "text": "Is there blood coming out of my ears? Em mới mang cả 'briefcase of facts' với số liệu dẫn chứng rõ ràng mà Phoebe vẫn bảo nên coi bài Tarot!",
+      "face_expression": "facepalm_tired",
+      "body_gesture": "head_shake"
+    },
+    {
+      "id": "solo_ross_14",
+      "character_id": "ross",
+      "category": "office_mood",
+      "episode_ref": "S06E09",
+      "text": "It tastes like feet! Chà, món cà phê tự pha hôm nay vị lạ quá, nhưng số liệu Market_Data em vừa cập nhật cho sếp Bông thì cực kỳ thơm ngon nha!",
+      "face_expression": "shock",
+      "body_gesture": "sip_coffee"
+    },
+    {
+      "id": "solo_ross_15",
+      "character_id": "ross",
+      "category": "office_mood",
+      "episode_ref": "S07E10",
+      "text": "I'm the Holiday Armadillo! Sắp tới mùa lễ rồi, em đang tra cứu hết các quy định khuyến mãi để chiến dịch cuối năm của BoonGood an toàn tuyệt đối!",
+      "face_expression": "happy",
+      "body_gesture": "wave"
+    },
+    {
+      "id": "solo_ross_16",
+      "character_id": "ross",
+      "category": "office_mood",
+      "episode_ref": "S01E01",
+      "text": "Hi... Hôm nay không có ai muốn nghe em kể về hóa thạch tiền sử hết, nhưng ít nhất sếp Bông vẫn thích đọc báo cáo thị trường của em!",
+      "face_expression": "neutral",
+      "body_gesture": "shrug"
+    },
+    {
+      "id": "solo_joey_01",
+      "character_id": "joey",
+      "category": "iconic_classic",
+      "episode_ref": "S04E13",
+      "text": "Hey... How you doin'? Câu mở đầu 3 giây đầu cho clip TikTok mới của BoonGood như vậy đã đủ làm khách dừng lướt chưa sếp Bông?",
+      "face_expression": "flirty",
+      "body_gesture": "lean_in"
+    },
+    {
+      "id": "solo_joey_02",
+      "character_id": "joey",
+      "category": "iconic_classic",
+      "episode_ref": "S10E09",
+      "text": "JOEY DOESN'T SHARE FOOD! Trừ lúc quay video mukbang giới thiệu bánh BoonGood nha, lúc đó em sẵn sàng ăn giùm phần cả phòng luôn!",
+      "face_expression": "angry",
+      "body_gesture": "point"
+    },
+    {
+      "id": "solo_joey_03",
+      "character_id": "joey",
+      "category": "iconic_classic",
+      "episode_ref": "S07E08",
+      "text": "It's a moo point. It's like a cow's opinion — it just doesn't matter, it's 'moo'. Kịch bản nào rườm rà không bắt mắt 3 giây đầu là bỏ hết, làm clip ngắn gọn thôi!",
+      "face_expression": "happy",
+      "body_gesture": "shrug"
+    },
+    {
+      "id": "solo_joey_04",
+      "character_id": "joey",
+      "category": "iconic_classic",
+      "episode_ref": "S06E09",
+      "text": "What's not to like? Custard, good. Jam, good. Meat, GOOD! Đưa sản phẩm nào của BoonGood qua tay em review cũng đều trông ngon chảy nước miếng!",
+      "face_expression": "hearts",
+      "body_gesture": "excited_bounce"
+    },
+    {
+      "id": "solo_joey_05",
+      "character_id": "joey",
+      "category": "iconic_classic",
+      "episode_ref": "S03E02",
+      "text": "Look at me! I'm Chandler! Could I BE wearing any more clothes? Kịch bản biến hình thay 5 bộ đồ trong 15 giây này quay Reels đảm bảo triệu view!",
+      "face_expression": "laugh",
+      "body_gesture": "excited_bounce"
+    },
+    {
+      "id": "solo_joey_06",
+      "character_id": "joey",
+      "category": "iconic_classic",
+      "episode_ref": "S01E01",
+      "text": "Welcome back to the world. Grab a spoon! Clip trước ít view thì bỏ qua, thế giới có cả trăm trend mới, cầm muỗng lên quay tiếp với em nào!",
+      "face_expression": "happy",
+      "body_gesture": "wave"
+    },
+    {
+      "id": "solo_joey_07",
+      "character_id": "joey",
+      "category": "deep_cut_lore",
+      "episode_ref": "S05E14",
+      "text": "Oh, yeah? Well, you don't know about Hugsy, my bedtime penguin pal. Em đặt Hugsy ngay góc bàn làm linh vật lấy cảm hứng quay video mỗi ngày đó!",
+      "face_expression": "hearts",
+      "body_gesture": "idle_talk"
+    },
+    {
+      "id": "solo_joey_08",
+      "character_id": "joey",
+      "category": "deep_cut_lore",
+      "episode_ref": "S02E15",
+      "text": "No, inside good, outside bad. Ngồi ghế ngả Rosita cầm điện thoại quay clip cận cảnh sản phẩm vừa khỏe vừa nét, cần gì chạy nắng!",
+      "face_expression": "happy",
+      "body_gesture": "lean_in"
+    },
+    {
+      "id": "solo_joey_09",
+      "character_id": "joey",
+      "category": "deep_cut_lore",
+      "episode_ref": "S05E17",
+      "text": "I can't believe I almost lost another shot because of counting! Huhu, em vừa đếm nhầm số cảnh quay thành 327 238 giây, may mà chưa xuất file!",
+      "face_expression": "facepalm_tired",
+      "body_gesture": "head_shake"
+    },
+    {
+      "id": "solo_joey_10",
+      "character_id": "joey",
+      "category": "deep_cut_lore",
+      "episode_ref": "S05E20",
+      "text": "I was trying to save my sandwich. Ý em là cú lao người chụp đỡ hộp quà mẫu lúc nãy trông anh hùng lắm đúng không? Thật ra bên trong có bánh ngon!",
+      "face_expression": "laugh",
+      "body_gesture": "shrug"
+    },
+    {
+      "id": "solo_joey_11",
+      "character_id": "joey",
+      "category": "deep_cut_lore",
+      "episode_ref": "S10E11",
+      "text": "Paper. Snow. A ghost! Đấy, brainstorm kiểu liệt kê nhanh trong 5 giây đôi khi lại ra ý tưởng viral bất ngờ lắm nha sếp Bông!",
+      "face_expression": "happy",
+      "body_gesture": "point"
+    },
+    {
+      "id": "solo_joey_12",
+      "character_id": "joey",
+      "category": "office_mood",
+      "episode_ref": "S07E11",
+      "text": "All right, what are we havin'? Nghe mùi đồ ăn từ khu pantry bay sang là em thủ sẵn cái dĩa trong túi áo chạy qua liền!",
+      "face_expression": "happy",
+      "body_gesture": "excited_bounce"
+    },
+    {
+      "id": "solo_joey_13",
+      "character_id": "joey",
+      "category": "office_mood",
+      "episode_ref": "S10E05",
+      "text": "I'M CURVY, AND I LIKE IT! Nên đóng quảng cáo đồ ăn vặt cho BoonGood là chuẩn hình tượng người thật việc thật luôn!",
+      "face_expression": "laugh",
+      "body_gesture": "wave"
+    },
+    {
+      "id": "solo_joey_14",
+      "character_id": "joey",
+      "category": "office_mood",
+      "episode_ref": "S04E07",
+      "text": "Over the line? The line is a dot to you! Ai cắt mất cảnh cười tỏa nắng của em trong video Reels là coi như vượt ranh giới đó nha!",
+      "face_expression": "angry",
+      "body_gesture": "point"
+    },
+    {
+      "id": "solo_joey_15",
+      "character_id": "joey",
+      "category": "office_mood",
+      "episode_ref": "S10E13",
+      "text": "Je de coup Clow! ... Ủa sếp Bông bảo làm clip phong cách Pháp sang chảnh, em đọc giống hệt 'Je m'appelle Claude' rồi mà sao Phoebe cứ ôm đầu vậy?",
+      "face_expression": "flirty",
+      "body_gesture": "shrug"
+    },
+    {
+      "id": "solo_joey_16",
+      "character_id": "joey",
+      "category": "office_mood",
+      "episode_ref": "S07E14",
+      "text": "Why, God, why?! We had a deal! Sao mới quay 3 cái clip mà đã tới giờ chiều rồi, chưa kịp ăn thêm cái Joey Special hai hộp pizza nữa!",
+      "face_expression": "panic",
+      "body_gesture": "hands_up_panic"
+    },
+    {
+      "id": "solo_phoebe_01",
+      "character_id": "phoebe",
+      "category": "iconic_classic",
+      "episode_ref": "S01E01",
+      "text": "Oh, I wish I could, but I don't want to. Em từ chối mấy cuộc họp dài dòng nhé, chứ nghĩ thiệp cảm ơn chạm tim khách của sếp Bông thì em xung phong ngay!",
+      "face_expression": "smirk_sarcastic",
+      "body_gesture": "shrug"
+    },
+    {
+      "id": "solo_phoebe_02",
+      "character_id": "phoebe",
+      "category": "iconic_classic",
+      "episode_ref": "S01E04",
+      "text": "I don't even have a pla-. Đừng bắt em vẽ sơ đồ Gantt kiểu Monica nha, cảm hứng trải nghiệm khách hàng nó đến bất ngờ như gió trời vậy đó!",
+      "face_expression": "laugh",
+      "body_gesture": "shrug"
+    },
+    {
+      "id": "solo_phoebe_03",
+      "character_id": "phoebe",
+      "category": "iconic_classic",
+      "episode_ref": "S03E14",
+      "text": "Smelly cat, smelly cat, what are they feeding you? It's not your fault~ Đang thử phổ nhạc làm âm thanh mở hộp siêu dễ thương cho khách BoonGood nè!",
+      "face_expression": "dreamy_sing",
+      "body_gesture": "play_guitar"
+    },
+    {
+      "id": "solo_phoebe_04",
+      "character_id": "phoebe",
+      "category": "iconic_classic",
+      "episode_ref": "S05E14",
+      "text": "They don't know that we know they know we know! Khách hàng sẽ bất ngờ xỉu khi mở hộp quà BoonGood thấy lá thư bí mật tụi mình giấu dưới đáy!",
+      "face_expression": "happy",
+      "body_gesture": "lean_in"
+    },
+    {
+      "id": "solo_phoebe_05",
+      "character_id": "phoebe",
+      "category": "iconic_classic",
+      "episode_ref": "S02E14",
+      "text": "See? He's her lobster! Sản phẩm này với tệp khách yêu quà tặng tinh tế đúng chuẩn cặp đôi tôm hùm sinh ra dành cho nhau luôn á sếp Bông!",
+      "face_expression": "hearts",
+      "body_gesture": "excited_bounce"
+    },
+    {
+      "id": "solo_phoebe_06",
+      "character_id": "phoebe",
+      "category": "iconic_classic",
+      "episode_ref": "S10E18",
+      "text": "I have a feeling there's something wrong with the left phalange! Nếu đơn hàng giao trễ 10 phút, để em gọi trấn an khách bằng giọng siêu dễ thương cho!",
+      "face_expression": "panic",
+      "body_gesture": "hands_up_panic"
+    },
+    {
+      "id": "solo_phoebe_07",
+      "character_id": "phoebe",
+      "category": "deep_cut_lore",
+      "episode_ref": "S05E24",
+      "text": "Hello, my name is Regina Phalange. I must've left my Filofax in Conference Room B. Hôm nay em đóng vai khách hàng bí ẩn để tự chấm điểm dịch vụ CSKH nhà mình!",
+      "face_expression": "flirty",
+      "body_gesture": "wave"
+    },
+    {
+      "id": "solo_phoebe_08",
+      "character_id": "phoebe",
+      "category": "deep_cut_lore",
+      "episode_ref": "S02E03",
+      "text": "Lately I get the feeling that I'm not so much being pulled down as I am being pushed. Nên trải nghiệm mở hộp của BoonGood phải khiến khách thấy nhẹ bẫng như bay lên!",
+      "face_expression": "dreamy_sing",
+      "body_gesture": "idle_talk"
+    },
+    {
+      "id": "solo_phoebe_09",
+      "character_id": "phoebe",
+      "category": "deep_cut_lore",
+      "episode_ref": "S06E25",
+      "text": "It's just good sense to backup your backup! Em lúc nào cũng chuẩn bị 1 ý tưởng CSKH an toàn, 1 ý tưởng phá cách và 1 phương án dự phòng cho phương án dự phòng!",
+      "face_expression": "smirk_sarcastic",
+      "body_gesture": "point"
+    },
+    {
+      "id": "solo_phoebe_10",
+      "character_id": "phoebe",
+      "category": "deep_cut_lore",
+      "episode_ref": "S09E21",
+      "text": "Now I'm this corporate stooge and punching a clock and paying taxes! Nhưng được cái làm với sếp Bông thì năng lượng lành lắm, không có mùi tập đoàn lạnh lẽo!",
+      "face_expression": "facepalm_tired",
+      "body_gesture": "head_shake"
+    },
+    {
+      "id": "solo_phoebe_11",
+      "character_id": "phoebe",
+      "category": "deep_cut_lore",
+      "episode_ref": "S10E14",
+      "text": "Meet Princess Consuela Bananahammock! Sếp Bông thấy mình nên làm thẻ thành viên cho khách tự đặt biệt danh siêu ngộ nghĩnh thế này không?",
+      "face_expression": "laugh",
+      "body_gesture": "excited_bounce"
+    },
+    {
+      "id": "solo_phoebe_12",
+      "character_id": "phoebe",
+      "category": "office_mood",
+      "episode_ref": "S01E14",
+      "text": "That's why I can't wear a digital watch. Cơ thể em có từ trường nhạy lắm, khách nào sắp đánh giá 5 sao là em cảm nhận được aura lấp lánh ngay!",
+      "face_expression": "dreamy_sing",
+      "body_gesture": "idle_talk"
+    },
+    {
+      "id": "solo_phoebe_13",
+      "character_id": "phoebe",
+      "category": "office_mood",
+      "episode_ref": "S06E09",
+      "text": "I love Jacques Cousteau! Hễ phòng họp đang căng thẳng quá là em cứ tung một câu siêu thực cho mọi người bật cười xả stress liền!",
+      "face_expression": "happy",
+      "body_gesture": "wave"
+    },
+    {
+      "id": "solo_phoebe_14",
+      "character_id": "phoebe",
+      "category": "office_mood",
+      "episode_ref": "S02E09",
+      "text": "Happy 'Christmas Eve' Eve! Tặng khách lời chúc sớm trước dịp lễ một ngày luôn tạo bất ngờ dễ thương gấp đôi đó sếp Bông!",
+      "face_expression": "hearts",
+      "body_gesture": "excited_bounce"
+    },
+    {
+      "id": "solo_phoebe_15",
+      "character_id": "phoebe",
+      "category": "office_mood",
+      "episode_ref": "S07E11",
+      "text": "Oh, I have dinner plans with Joey. We get together once a month to discuss the rest of you guys. Yên tâm, tháng này tụi em toàn khen sếp Bông thôi!",
+      "face_expression": "smirk_sarcastic",
+      "body_gesture": "lean_in"
+    },
+    {
+      "id": "solo_phoebe_16",
+      "character_id": "phoebe",
+      "category": "office_mood",
+      "episode_ref": "S04E14",
+      "text": "Aww, Pheebs! Ơ khoan, đó là tên viết tắt của em hả? Em cứ tưởng đó là cách gọi dễ thương tụi mình gọi nhau trong văn phòng BoonGood chứ!",
+      "face_expression": "laugh",
+      "body_gesture": "shrug"
+    }
+  ]
+}

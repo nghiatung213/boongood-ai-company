@@ -1,0 +1,620 @@
+{
+  "version": "1.0.0",
+  "description": "36 tương tác không gian phân bổ đều trên 12 vị trí đạo cụ & bàn làm việc riêng trong văn phòng 3D BoonGood (3 tương tác/vị trí).",
+  "zones": [
+    "purple_door",
+    "orange_sofa",
+    "foosball_table",
+    "coffee_counter",
+    "chick_duck_corner",
+    "monica_secret_closet",
+    "desk_rachel",
+    "desk_monica",
+    "desk_chandler",
+    "desk_ross",
+    "desk_joey",
+    "desk_phoebe"
+  ],
+  "interactions": [
+    {
+      "id": "zone_purple_door_01",
+      "zone_id": "purple_door",
+      "zone_label": "Cánh cửa màu tím khung vàng",
+      "trigger_type": "click_prop",
+      "participants": ["monica"],
+      "episode_ref": "S01E01",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Sếp Bông biết không, chiếc khung vàng quanh lỗ nhìn trộm này vốn từ một tấm gương vỡ mà thành biểu tượng 10 năm đó! Cánh cửa tím số 20 luôn rộng mở chào đón sếp!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "zone_purple_door_02",
+      "zone_id": "purple_door",
+      "zone_label": "Cánh cửa màu tím khung vàng",
+      "trigger_type": "easter_egg",
+      "participants": ["rachel", "joey"],
+      "episode_ref": "S10E08",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "*nhìn qua lỗ nhìn trộm* Ai đi họp trễ nhớ gõ cửa nhẹ nha, đừng để Monica cài dây xích rồi phải xếp 4 cái đầu ngoài hành lang!",
+          "face_expression": "laugh",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "joey",
+          "text": "The floating heads do make a good point! Mà có mang theo trà sữa cho sếp Bông là được mở cửa đặc cách liền!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        }
+      ]
+    },
+    {
+      "id": "zone_purple_door_03",
+      "zone_id": "purple_door",
+      "zone_label": "Cánh cửa màu tím khung vàng",
+      "trigger_type": "proximity_idle",
+      "participants": ["chandler"],
+      "episode_ref": "S01E01",
+      "lines": [
+        {
+          "character_id": "chandler",
+          "text": "Tò mò ghê, đầu mùa 1 cánh cửa này còn gắn số 5, sau tự nhiên lên số 20 cho đúng tầng cao. Giống KPI doanh số BoonGood vậy — chỉ có tăng lên thôi!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "point"
+        }
+      ]
+    },
+    {
+      "id": "zone_orange_sofa_01",
+      "zone_id": "orange_sofa",
+      "zone_label": "Bộ sofa cam có biển RESERVED",
+      "trigger_type": "click_prop",
+      "participants": ["chandler"],
+      "episode_ref": "S03E01",
+      "lines": [
+        {
+          "character_id": "chandler",
+          "text": "Biển RESERVED trên bàn là để giữ chỗ riêng cho sếp Bông và 6 tụi em đó! Còn ghế trống đầy ra nhưng anh vẫn thích ngồi vắt vẻo lên tay vịn sofa nhất.",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "sip_coffee"
+        }
+      ]
+    },
+    {
+      "id": "zone_orange_sofa_02",
+      "zone_id": "orange_sofa",
+      "zone_label": "Bộ sofa cam có biển RESERVED",
+      "trigger_type": "easter_egg",
+      "participants": ["joey", "rachel"],
+      "episode_ref": "S06E08",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Ngồi sofa cam ngắm cả văn phòng BoonGood brainstorm thấy ấm cúng như ở Central Perk thật sự!",
+          "face_expression": "hearts",
+          "body_gesture": "idle_talk"
+        },
+        {
+          "character_id": "joey",
+          "text": "Đừng ngồi lâu quá tới 11:30 sáng thứ Tư nha, không là anh lại nhắc 'hanging around here at 11:30 on a Wednesday' đấy!",
+          "face_expression": "laugh",
+          "body_gesture": "point"
+        }
+      ]
+    },
+    {
+      "id": "zone_orange_sofa_03",
+      "zone_id": "orange_sofa",
+      "zone_label": "Bộ sofa cam có biển RESERVED",
+      "trigger_type": "proximity_idle",
+      "participants": ["phoebe"],
+      "episode_ref": "S02E14",
+      "lines": [
+        {
+          "character_id": "phoebe",
+          "text": "Chiếc sofa cam gỉ này tỏa ra năng lượng sáng tạo siêu ấm luôn! Sếp Bông cứ ngồi đây nhâm nhi trà rồi gọi tụi em tới trình ý tưởng nhé!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "zone_foosball_table_01",
+      "zone_id": "foosball_table",
+      "zone_label": "Bàn bi lắc",
+      "trigger_type": "click_prop",
+      "participants": ["joey", "chandler"],
+      "episode_ref": "S01E12",
+      "lines": [
+        {
+          "character_id": "joey",
+          "text": "Hồi xưa gãy bàn ăn nên tụi anh mua thẳng bàn bi lắc về thay luôn! Từ mùa giải chấn thương năm '97 tới giờ Chandler vẫn chưa thắng nổi anh ván nào!",
+          "face_expression": "laugh",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Cậu cứ khoe đi, miễn đừng để Monica nghe thấy không chị ấy lại qua nghiền nát cả hai đứa trong 3 phút!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "head_shake"
+        }
+      ]
+    },
+    {
+      "id": "zone_foosball_table_02",
+      "zone_id": "foosball_table",
+      "zone_label": "Bàn bi lắc",
+      "trigger_type": "easter_egg",
+      "participants": ["monica"],
+      "episode_ref": "S10E18",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "*nghe tiếng chíp chíp khẽ trong ruột bàn* Ơ kìa, Chick Jr. với Duck Jr. lại chui vào trốn rồi hả? Sếp Bông yên tâm, em mở chốt cứu hai bé ra mà không cần đập bàn đâu!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "lean_in"
+        }
+      ]
+    },
+    {
+      "id": "zone_foosball_table_03",
+      "zone_id": "foosball_table",
+      "zone_label": "Bàn bi lắc",
+      "trigger_type": "proximity_idle",
+      "participants": ["monica"],
+      "episode_ref": "S05E12",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Ai hoàn thành xong deadline sớm chiều nay ra đây đấu bi lắc với em một ván giải stress nhé! Báo trước: my team always wins!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        }
+      ]
+    },
+    {
+      "id": "zone_coffee_counter_01",
+      "zone_id": "coffee_counter",
+      "zone_label": "Quầy cà phê Central Perk",
+      "trigger_type": "click_prop",
+      "participants": ["rachel"],
+      "episode_ref": "S03E10",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Sếp Bông uống regular hay decaf ạ? Thật ra em vẫn hay nhìn nhầm hai màu tay cầm bình cà phê, nhưng pha cho sếp thì em kiểm kỹ 3 lần luôn!",
+          "face_expression": "laugh",
+          "body_gesture": "sip_coffee"
+        }
+      ]
+    },
+    {
+      "id": "zone_coffee_counter_02",
+      "zone_id": "coffee_counter",
+      "zone_label": "Quầy cà phê Central Perk",
+      "trigger_type": "easter_egg",
+      "participants": ["ross"],
+      "episode_ref": "S08E07",
+      "lines": [
+        {
+          "character_id": "ross",
+          "text": "Dank je wel voor de koffie! Hồi xưa anh khoe câu tiếng Hà Lan ở quầy này bị Gunther mắng là 'Ezel' — may quá quầy cà phê nhà sếp Bông chỉ toàn lời khen thôi!",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "sip_coffee"
+        }
+      ]
+    },
+    {
+      "id": "zone_coffee_counter_03",
+      "zone_id": "coffee_counter",
+      "zone_label": "Quầy cà phê Central Perk",
+      "trigger_type": "proximity_idle",
+      "participants": ["monica"],
+      "episode_ref": "S01E01",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Em đã đánh số thứ tự dưới đáy toàn bộ 12 chiếc cốc ở quầy rồi nha! Ai uống xong nhớ rửa úp đúng số, chuẩn Monica-clean!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        }
+      ]
+    },
+    {
+      "id": "zone_chick_duck_01",
+      "zone_id": "chick_duck_corner",
+      "zone_label": "Góc Gà & Vịt + Magna Doodle",
+      "trigger_type": "click_prop",
+      "participants": ["joey"],
+      "episode_ref": "S03E21",
+      "lines": [
+        {
+          "character_id": "joey",
+          "text": "Chào Chick và Duck nào! Sếp Bông nhớ giữ kỹ nhẫn trang sức khi đứng gần chú Vịt nha, hồi trước nó từng nuốt chửng nhẫn đính hôn của Ross đó!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        }
+      ]
+    },
+    {
+      "id": "zone_chick_duck_02",
+      "zone_id": "chick_duck_corner",
+      "zone_label": "Góc Gà & Vịt + Magna Doodle",
+      "trigger_type": "easter_egg",
+      "participants": ["chandler"],
+      "episode_ref": "S06E16",
+      "lines": [
+        {
+          "character_id": "chandler",
+          "text": "Kia là tượng chó sứ trắng 'Pat — Pat the Dog' sống sót thần kỳ qua đủ mọi biến cố, và bảng Magna Doodle hôm nay em mới vẽ dòng chữ: 'BoonGood nổ đơn!'",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "zone_chick_duck_03",
+      "zone_id": "chick_duck_corner",
+      "zone_label": "Góc Gà & Vịt + Magna Doodle",
+      "trigger_type": "proximity_idle",
+      "participants": ["joey"],
+      "episode_ref": "S07E13",
+      "lines": [
+        {
+          "character_id": "joey",
+          "text": "Ghế ngả Rosita bên cạnh góc Gà Vịt ngồi êm như mây luôn! No, inside good, outside bad — ngồi đây lướt trend TikTok cả buổi không chán!",
+          "face_expression": "hearts",
+          "body_gesture": "lean_in"
+        }
+      ]
+    },
+    {
+      "id": "zone_secret_closet_01",
+      "zone_id": "monica_secret_closet",
+      "zone_label": "Chiếc tủ khóa kín của Monica",
+      "trigger_type": "click_prop",
+      "participants": ["monica"],
+      "episode_ref": "S08E14",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Ơ khoan sếp Bông đừng bấm vào cánh cửa xanh đó! Bên trong chỉ là... ờ... kho vật liệu chưa kịp phân loại thôi! If you love me, you'll just let it go!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        }
+      ]
+    },
+    {
+      "id": "zone_secret_closet_02",
+      "zone_id": "monica_secret_closet",
+      "zone_label": "Chiếc tủ khóa kín của Monica",
+      "trigger_type": "easter_egg",
+      "participants": ["chandler", "monica"],
+      "episode_ref": "S08E14",
+      "lines": [
+        {
+          "character_id": "chandler",
+          "text": "*cạy khóa bằng thẻ nhựa, cả đống mẫu thử đổ ra* Haha! I married Fred Sanford! Ngay cả người sạch nhất hành tinh cũng cần một thư mục rác tạm!",
+          "face_expression": "laugh",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "monica",
+          "text": "CHANDLERRRRR! Đóng cửa tủ lại ngay! Hôm nay em sẽ mua máy in nhãn mới dọn sạch tủ này trong 2 tiếng cho anh coi!",
+          "face_expression": "angry",
+          "body_gesture": "hands_up_panic"
+        }
+      ]
+    },
+    {
+      "id": "zone_secret_closet_03",
+      "zone_id": "monica_secret_closet",
+      "zone_label": "Chiếc tủ khóa kín của Monica",
+      "trigger_type": "proximity_idle",
+      "participants": ["joey"],
+      "episode_ref": "S08E14",
+      "lines": [
+        {
+          "character_id": "joey",
+          "text": "Hồi xưa anh từng cá trong tủ này có hàng triệu con bọ ăn thịt người, hóa ra chỉ toàn hộp mẫu dự phòng với cuộn ruy-băng thôi à!",
+          "face_expression": "shock",
+          "body_gesture": "shrug"
+        }
+      ]
+    },
+    {
+      "id": "zone_desk_rachel_01",
+      "zone_id": "desk_rachel",
+      "zone_label": "Bàn làm việc Rachel (Thương hiệu & Thiết kế)",
+      "trigger_type": "click_prop",
+      "participants": ["rachel"],
+      "episode_ref": "S03E10",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Chào sếp Bông ghé góc thời trang & bao bì của em! Bảng màu pastel, mẫu hộp mới và ảnh sản phẩm đều sẵn sàng để sếp gửi ảnh lên em góp ý ngay nè!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "zone_desk_rachel_02",
+      "zone_id": "desk_rachel",
+      "zone_label": "Bàn làm việc Rachel (Thương hiệu & Thiết kế)",
+      "trigger_type": "easter_egg",
+      "participants": ["rachel"],
+      "episode_ref": "S04E12",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Sếp thấy đĩa phim 'Dangerous Liaisons' trên bàn em không? Suỵt, bên trong vỏ đĩa thật ra là phim 'Weekend at Bernie's' đó, giữ bí mật nha!",
+          "face_expression": "flirty",
+          "body_gesture": "lean_in"
+        }
+      ]
+    },
+    {
+      "id": "zone_desk_rachel_03",
+      "zone_id": "desk_rachel",
+      "zone_label": "Bàn làm việc Rachel (Thương hiệu & Thiết kế)",
+      "trigger_type": "proximity_idle",
+      "participants": ["rachel"],
+      "episode_ref": "S06E09",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Trên bàn có lọ hoa huệ tây em thích nhất để giữ gu thẩm mỹ luôn tươi mới. Cần duyệt thiết kế menu hay tem nhãn cứ gọi em nhé sếp Bông!",
+          "face_expression": "hearts",
+          "body_gesture": "idle_talk"
+        }
+      ]
+    },
+    {
+      "id": "zone_desk_monica_01",
+      "zone_id": "desk_monica",
+      "zone_label": "Bàn làm việc Monica (Vận hành & Sản phẩm)",
+      "trigger_type": "click_prop",
+      "participants": ["monica"],
+      "episode_ref": "S02E23",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Nhìn bàn em thẳng tắp từng milimet chưa sếp Bông? Máy in nhãn, bảng checklist QC và 11 loại khăn lau đều đặt đúng tọa độ chuẩn!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        }
+      ]
+    },
+    {
+      "id": "zone_desk_monica_02",
+      "zone_id": "desk_monica",
+      "zone_label": "Bàn làm việc Monica (Vận hành & Sản phẩm)",
+      "trigger_type": "easter_egg",
+      "participants": ["monica"],
+      "episode_ref": "S03E03",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Trên góc bàn có hũ mứt tự nấu lúc 4 giờ sáng — What's the opposite of stress? Jam! Sếp Bông thử một muỗng cho có năng lượng làm việc nha!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        }
+      ]
+    },
+    {
+      "id": "zone_desk_monica_03",
+      "zone_id": "desk_monica",
+      "zone_label": "Bàn làm việc Monica (Vận hành & Sản phẩm)",
+      "trigger_type": "proximity_idle",
+      "participants": ["monica"],
+      "episode_ref": "S05E05",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Rules are good! Rules help control the fun! Cần lập quy trình đóng gói hay kiểm tra chất lượng lô hàng mới cứ giao thẳng cho bàn này!",
+          "face_expression": "happy",
+          "body_gesture": "idle_talk"
+        }
+      ]
+    },
+    {
+      "id": "zone_desk_chandler_01",
+      "zone_id": "desk_chandler",
+      "zone_label": "Bàn làm việc Chandler (Dữ liệu, Tài chính & Copywriting)",
+      "trigger_type": "click_prop",
+      "participants": ["chandler"],
+      "episode_ref": "S01E15",
+      "lines": [
+        {
+          "character_id": "chandler",
+          "text": "Chào mừng sếp Bông tới trạm Finance_Models & Copywriting! Yên tâm, ở đây không có tờ báo cáo WENUS nhàm chán nào hết — chỉ có biên lợi nhuận xịn và câu chữ duyên dáng!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "zone_desk_chandler_02",
+      "zone_id": "desk_chandler",
+      "zone_label": "Bàn làm việc Chandler (Dữ liệu, Tài chính & Copywriting)",
+      "trigger_type": "easter_egg",
+      "participants": ["chandler"],
+      "episode_ref": "S04E12",
+      "lines": [
+        {
+          "character_id": "chandler",
+          "text": "Ồ, sếp thấy quyển tạp chí TV Guide đề tên 'Ms. Chanandler Bong' trên góc bàn em rồi hả? Giữ lại làm kỷ niệm nhắc mình đừng bao giờ quên khiếu hài hước!",
+          "face_expression": "laugh",
+          "body_gesture": "shrug"
+        }
+      ]
+    },
+    {
+      "id": "zone_desk_chandler_03",
+      "zone_id": "desk_chandler",
+      "zone_label": "Bàn làm việc Chandler (Dữ liệu, Tài chính & Copywriting)",
+      "trigger_type": "proximity_idle",
+      "participants": ["chandler"],
+      "episode_ref": "S04E08",
+      "lines": [
+        {
+          "character_id": "chandler",
+          "text": "I'm not great at the advice. Can I interest you in a sarcastic comment? Đùa thôi, sếp cần tính giá bán, điểm hòa vốn hay viết bài bán hàng cứ gõ bàn em!",
+          "face_expression": "happy",
+          "body_gesture": "sip_coffee"
+        }
+      ]
+    },
+    {
+      "id": "zone_desk_ross_01",
+      "zone_id": "desk_ross",
+      "zone_label": "Bàn làm việc Ross (Nghiên cứu, Pháp lý & Khủng long)",
+      "trigger_type": "click_prop",
+      "participants": ["ross"],
+      "episode_ref": "S07E18",
+      "lines": [
+        {
+          "character_id": "ross",
+          "text": "Sếp Bông vừa chạm vào mô hình Velociraptor của em đó! Theo phỏng đoán thì nó kêu *SKREEE* — Of course, this is just conjecture! Còn số liệu Market_Data của em thì chuẩn xác nhé!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        }
+      ]
+    },
+    {
+      "id": "zone_desk_ross_02",
+      "zone_id": "desk_ross",
+      "zone_label": "Bàn làm việc Ross (Nghiên cứu, Pháp lý & Khủng long)",
+      "trigger_type": "easter_egg",
+      "participants": ["ross"],
+      "episode_ref": "S02E03",
+      "lines": [
+        {
+          "character_id": "ross",
+          "text": "Đây là chiếc cặp 'a briefcase of facts' gồm hóa thạch 200 triệu năm và đủ bộ luật ghi nhãn hàng hóa. Fine, no more dinosaur stuff… can I talk about fossils?",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        }
+      ]
+    },
+    {
+      "id": "zone_desk_ross_03",
+      "zone_id": "desk_ross",
+      "zone_label": "Bàn làm việc Ross (Nghiên cứu, Pháp lý & Khủng long)",
+      "trigger_type": "proximity_idle",
+      "participants": ["ross"],
+      "episode_ref": "S06E17",
+      "lines": [
+        {
+          "character_id": "ross",
+          "text": "Mọi tài liệu đối thủ và checklist pháp lý BoonGood đều đang ở trạng thái Unagi — cảnh giác cao độ và phân tích bài bản cho sếp Bông!",
+          "face_expression": "neutral",
+          "body_gesture": "idle_talk"
+        }
+      ]
+    },
+    {
+      "id": "zone_desk_joey_01",
+      "zone_id": "desk_joey",
+      "zone_label": "Bàn làm việc Joey (Truyền thông, Video & Hugsy)",
+      "trigger_type": "click_prop",
+      "participants": ["joey"],
+      "episode_ref": "S05E14",
+      "lines": [
+        {
+          "character_id": "joey",
+          "text": "Đây là Original Hugsy, my bedtime penguin pal — thiếu đúng một cái cúc áo! Còn bên cạnh là kịch bản quay Reels mới toanh em viết cho sếp Bông nè!",
+          "face_expression": "hearts",
+          "body_gesture": "point"
+        }
+      ]
+    },
+    {
+      "id": "zone_desk_joey_02",
+      "zone_id": "desk_joey",
+      "zone_label": "Bàn làm việc Joey (Truyền thông, Video & Hugsy)",
+      "trigger_type": "easter_egg",
+      "participants": ["joey"],
+      "episode_ref": "S10E09",
+      "lines": [
+        {
+          "character_id": "joey",
+          "text": "Ê khoan, đừng chạm vào hộp pizza Joey Special trên góc bàn nha! JOEY DOESN'T SHARE FOOD! ... À sếp Bông thì em nhường miếng ngon nhất luôn!",
+          "face_expression": "laugh",
+          "body_gesture": "hands_up_panic"
+        }
+      ]
+    },
+    {
+      "id": "zone_desk_joey_03",
+      "zone_id": "desk_joey",
+      "zone_label": "Bàn làm việc Joey (Truyền thông, Video & Hugsy)",
+      "trigger_type": "proximity_idle",
+      "participants": ["joey"],
+      "episode_ref": "S04E13",
+      "lines": [
+        {
+          "character_id": "joey",
+          "text": "Hey... How you doin'? Đèn quay bật sẵn rồi, sếp Bông muốn làm clip review hay bắt trend gì chỉ cần hô Action là em diễn liền!",
+          "face_expression": "flirty",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "zone_desk_phoebe_01",
+      "zone_id": "desk_phoebe",
+      "zone_label": "Bàn làm việc Phoebe (CSKH, Sáng tạo & Đàn guitar)",
+      "trigger_type": "click_prop",
+      "participants": ["phoebe"],
+      "episode_ref": "S03E14",
+      "lines": [
+        {
+          "character_id": "phoebe",
+          "text": "*gảy đàn* Smelly cat, smelly cat, it's not your fault~ Sếp Bông bấm trúng cây đàn mộc rồi, để em tặng một khúc nhạc lên tinh thần sáng tạo nha!",
+          "face_expression": "dreamy_sing",
+          "body_gesture": "play_guitar"
+        }
+      ]
+    },
+    {
+      "id": "zone_desk_phoebe_02",
+      "zone_id": "desk_phoebe",
+      "zone_label": "Bàn làm việc Phoebe (CSKH, Sáng tạo & Đàn guitar)",
+      "trigger_type": "easter_egg",
+      "participants": ["phoebe"],
+      "episode_ref": "S05E11",
+      "lines": [
+        {
+          "character_id": "phoebe",
+          "text": "Đố sếp Bông biết hợp âm 'Bear Claw', 'Turkey Leg', 'Old Lady' với 'Iceberg' bấm thế nào? First you learn here (đầu), then you learn here (đàn)!",
+          "face_expression": "laugh",
+          "body_gesture": "play_guitar"
+        }
+      ]
+    },
+    {
+      "id": "zone_desk_phoebe_03",
+      "zone_id": "desk_phoebe",
+      "zone_label": "Bàn làm việc Phoebe (CSKH, Sáng tạo & Đàn guitar)",
+      "trigger_type": "proximity_idle",
+      "participants": ["phoebe"],
+      "episode_ref": "S05E24",
+      "lines": [
+        {
+          "character_id": "phoebe",
+          "text": "Góc bàn của Regina Phalange đầy thiệp tay và ý tưởng unboxing chạm tim khách hàng! Sếp cần sáng kiến khác biệt không đụng hàng cứ ghé em nhé!",
+          "face_expression": "hearts",
+          "body_gesture": "wave"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1041 @@
+{
+  "version": "1.0.0",
+  "description": "22 tiểu phẩm nhóm 3-6 nhân vật Friends (5-8 lượt thoại/tiểu phẩm, có trường tùy chọn mid_joiner cho nhân vật chạy tới chen ngang).",
+  "skits": [
+    {
+      "id": "group_01_wednesday_1130",
+      "title": "11:30 sáng thứ Tư tại sofa cam",
+      "pattern": "central_perk_hangout",
+      "participants": ["rachel", "chandler", "monica", "ross", "joey"],
+      "mid_joiner": {
+        "character_id": "joey",
+        "join_at_turn": 4,
+        "approach_style": "slide_in_with_coffee"
+      },
+      "episode_ref": "S06E08",
+      "preferred_zone": "orange_sofa",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Mọi người ơi, sao em có cảm giác hôm nay bảng thiết kế của em mãi chưa được duyệt nhanh như mọi hôm nhỉ?",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "sip_coffee"
+        },
+        {
+          "character_id": "chandler",
+          "text": "That's weird. Bảng số liệu của anh cũng chưa thấy phản hồi gì luôn.",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "monica",
+          "text": "Lạ thật, checklist vận hành của em cũng đang nằm chờ ngoài kia kìa!",
+          "face_expression": "shock",
+          "body_gesture": "idle_talk"
+        },
+        {
+          "character_id": "ross",
+          "text": "Maybe it's a universal thing? Hay hôm nay năng suất toàn ngành hàng đang chậm nhịp?",
+          "face_expression": "neutral",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "joey",
+          "text": "Or maybe it's because you're hanging around here at 11:30 on a Wednesday! Sếp Bông đang đợi trong 00_Inbox_Drafts kìa!",
+          "face_expression": "laugh",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "monica",
+          "text": "Á! Đúng rồi! Giải tán ngay về bàn làm việc đi cả nhà ơi!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        }
+      ]
+    },
+    {
+      "id": "group_02_strangers_on_sofa",
+      "title": "Bảo vệ lãnh thổ bộ sofa cam biển RESERVED",
+      "pattern": "central_perk_hangout",
+      "participants": ["monica", "rachel", "chandler", "ross", "joey", "phoebe"],
+      "mid_joiner": null,
+      "episode_ref": "S03E01",
+      "preferred_zone": "orange_sofa",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Ơ kìa mọi người, hôm nay có mấy vị khách đối tác ngồi hết bộ sofa cam của tụi mình rồi!",
+          "face_expression": "shock",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "monica",
+          "text": "Không thể nào! Rõ ràng sáng nay em đặt tấm biển RESERVED thẳng góc 90 độ trên bàn gỗ rồi mà!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Chắc tấm biển bị giấu sau hộp giấy ăn rồi. Giờ đứng đây nhìn nhau hay đi bộ ra cửa cho ngầu?",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "ross",
+          "text": "Theo lịch sự công sở thì mình nên nhường khách đối tác của sếp Bông... nhưng mà tim anh hơi nhói nhẹ.",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "head_shake"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Để em qua bật bài Smelly Cat lệch tông cỡ lớn là 30 giây sau ghế trống ngay!",
+          "face_expression": "dreamy_sing",
+          "body_gesture": "play_guitar"
+        },
+        {
+          "character_id": "joey",
+          "text": "Khoan đã, đừng đuổi khách! Trên bàn họ có đĩa bánh quy mẫu kìa, để anh qua làm quen hỏi 'How you doin'?' trước đã!",
+          "face_expression": "flirty",
+          "body_gesture": "lean_in"
+        }
+      ]
+    },
+    {
+      "id": "group_03_wedding_dress_storm_in",
+      "title": "Cú đột nhập cửa tím mang tin nóng thị trường",
+      "pattern": "storm_in",
+      "participants": ["monica", "chandler", "ross", "phoebe", "rachel"],
+      "mid_joiner": {
+        "character_id": "rachel",
+        "join_at_turn": 2,
+        "approach_style": "storm_in"
+      },
+      "episode_ref": "S01E01",
+      "preferred_zone": "purple_door",
+      "lines": [
+        {
+          "character_id": "ross",
+          "text": "Buổi sáng yên bình quá các bạn nhỉ. Chỉ ước gì hôm nay không có tin nào làm tụi mình giật bắn lên...",
+          "face_expression": "neutral",
+          "body_gesture": "sip_coffee"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Đừng bao giờ nói câu đó trước cánh cửa màu tím này Ross ạ — lần nào anh nói xong cũng có người đạp cửa lao vào!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "rachel",
+          "text": "*chạy ập qua cửa tím* MỌI NGƯỜI ƠI! Đối thủ vừa đổi toàn bộ bao bì mùa lễ sang tông màu gần giống BoonGood rồi! NOOOO!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "monica",
+          "text": "I KNOW! Ý chị là bình tĩnh nào Rachel! Ngồi xuống uống ly decaf đi rồi tụi mình lập kế hoạch nâng cấp bao bì xịn gấp đôi!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Bình tĩnh nè, họ chỉ bắt chước cái vỏ thôi chứ làm sao chép được linh hồn và sự ấm áp từ team sếp Bông!",
+          "face_expression": "hearts",
+          "body_gesture": "wave"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Và tôi vừa nảy ra câu slogan khịa nhẹ mà cực sang cho chiến dịch mới rồi. Sẵn sàng phản công nào!",
+          "face_expression": "happy",
+          "body_gesture": "lean_in"
+        }
+      ]
+    },
+    {
+      "id": "group_04_no_ones_ready",
+      "title": "Không ai kịp chuẩn bị trước giờ họp sếp Bông",
+      "pattern": "storm_in",
+      "participants": ["ross", "rachel", "monica", "phoebe", "chandler", "joey"],
+      "mid_joiner": {
+        "character_id": "joey",
+        "join_at_turn": 5,
+        "approach_style": "storm_in"
+      },
+      "episode_ref": "S03E02",
+      "preferred_zone": "orange_sofa",
+      "lines": [
+        {
+          "character_id": "ross",
+          "text": "Còn đúng 12 phút nữa là tới giờ họp tổng kết với sếp Bông mà chưa một ai gửi xong slide hết vậy?!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Chờ em 2 phút! Em vẫn chưa chọn được bộ màu pastel hồng đào hay kem bơ cho trang bìa!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "monica",
+          "text": "Em đang bận dán lại nhãn 4 thư mục Google Drive cho thẳng hàng — đừng ai đụng vào hệ thống của em!",
+          "face_expression": "angry",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Chị mới làm đổ giọt cà phê lên váy nên gắn tạm chiếc nơ hộp quà BoonGood cỡ lớn lên — trông như tuyên ngôn nghệ thuật đúng không?",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Ít nhất thì tôi đã sẵn sàng... trừ việc tên Joey giấu hết toàn bộ áo sơ mi của tôi rồi!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "head_shake"
+        },
+        {
+          "character_id": "joey",
+          "text": "*chạy ập vào mặc 5 lớp áo* Look at me! I'm Chandler! Could I BE wearing any more clothes? Em sẵn sàng họp rồi nè Ross!",
+          "face_expression": "laugh",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "ross",
+          "text": "Tôi sắp uống hết ly mỡ gà vì bất lực rồi đó cả nhà ơi! Đi họp ngay!!",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "hands_up_panic"
+        }
+      ]
+    },
+    {
+      "id": "group_05_thanksgiving_confession_chain",
+      "title": "Cơn lốc thú tội 30 giây trước giờ kiểm kho",
+      "pattern": "escalation_chain",
+      "participants": ["monica", "ross", "rachel", "phoebe", "joey", "chandler"],
+      "mid_joiner": null,
+      "episode_ref": "S06E09",
+      "preferred_zone": "coffee_counter",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Ross làm rơi bộ mẫu tem nhãn xuống sàn từ sáng mà không chịu nhặt!",
+          "face_expression": "angry",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "ross",
+          "text": "Hurricane Gloria didn't break the label printer, Monica did! Chị ấy bấm in liền 500 tờ nên kẹt giấy đó!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "I love Jacques Cousteau! Và em lén đặt thêm 3 chậu cây xương rồng lên góc cửa sổ không báo trước!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "rachel",
+          "text": "I wasn't supposed to put beef in the trifle! Em lỡ trộn nhầm slide báo cáo tháng trước vào bản nháp tuần này!",
+          "face_expression": "shock",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "joey",
+          "text": "I wanna gooooo! Em ăn mất 2 cái bánh mẫu để chụp ảnh rồi!",
+          "face_expression": "panic",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Chà... một màn thú tội ngoạn mục. Giờ cả phòng hít sâu, sửa nhanh từng cái một trong 10 phút trước khi sếp Bông mở Drive kiểm tra nhé!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "sip_coffee"
+        }
+      ]
+    },
+    {
+      "id": "group_06_they_dont_know_we_know",
+      "title": "Đấu trí bí mật tổ chức sinh nhật cho sếp Bông",
+      "pattern": "adjacent_eavesdrop",
+      "participants": ["phoebe", "rachel", "monica", "chandler", "ross"],
+      "mid_joiner": {
+        "character_id": "ross",
+        "join_at_turn": 4,
+        "approach_style": "run_in"
+      },
+      "episode_ref": "S05E14",
+      "preferred_zone": "purple_door",
+      "lines": [
+        {
+          "character_id": "phoebe",
+          "text": "OH, MY EYES! MY EYES! Chị vừa thấy Monica và Chandler lén đặt hộp bánh bất ngờ cho sếp Bông sau cánh cửa kia!",
+          "face_expression": "shock",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Suỵt! Vậy là họ không biết rằng tụi mình biết họ đang bí mật chuẩn bị tiệc bất ngờ!",
+          "face_expression": "happy",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Nhưng lỡ Chandler đoán ra thì sao? They don't know that we know they know we know!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "chandler",
+          "text": "*bước ra cười tinh quái* Thôi đừng nhảy tưng tưng nữa, tôi nghe hết từ bên kia hành lang rồi — góp tay trang trí chung luôn đi!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "wave"
+        },
+        {
+          "character_id": "ross",
+          "text": "*chạy từ xa vào* Mọi người đang hò hét ăn mừng gì vậy? Cho anh nhảy ăn mừng chung với! Wooo!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "monica",
+          "text": "Haha, thôi gom cả 6 người vào cùng làm tiệc bất ngờ cho sếp Bông càng vui gấp bội!",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "group_07_red_sweater_delayed_joey",
+      "title": "Quả bom bất ngờ và độ trễ 3 giây của Joey",
+      "pattern": "casual_bombshell",
+      "participants": ["monica", "phoebe", "joey", "ross"],
+      "mid_joiner": {
+        "character_id": "ross",
+        "join_at_turn": 1,
+        "approach_style": "walk_by_casual"
+      },
+      "episode_ref": "S08E02",
+      "preferred_zone": "coffee_counter",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Tò mò ghê, nãy ai gửi bản thiết kế ẩn danh siêu đẹp kia vào thư mục 00_Inbox_Drafts rồi để quên chiếc áo len đỏ ở đây thế nhỉ?",
+          "face_expression": "neutral",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "ross",
+          "text": "*đi ngang nhặt áo lên cực tự nhiên* Hey, my sweater! I've been looking for this for like a month! À bản mẫu đó anh nhờ đối tác in thử gửi đó, bye nha!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        },
+        {
+          "character_id": "monica",
+          "text": "Oh my God! Hóa ra người bí ẩn đứng sau ý tưởng đó là Ross!",
+          "face_expression": "shock",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Oh my God! Tiến sĩ cổ sinh vật học mà chọn màu tinh tế ghê luôn!",
+          "face_expression": "shock",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "joey",
+          "text": "*đứng hình 3 giây mới hiểu ra* ...OH MY GOD! Chiếc áo len đỏ là của Ross!!",
+          "face_expression": "shock",
+          "body_gesture": "hands_up_panic",
+          "delay_ms": 3000
+        }
+      ]
+    },
+    {
+      "id": "group_08_floating_heads_late",
+      "title": "Bốn cái đầu lơ lửng qua khe cửa xích",
+      "pattern": "uninvited_joiner",
+      "participants": ["monica", "chandler", "rachel", "ross", "phoebe", "joey"],
+      "mid_joiner": null,
+      "episode_ref": "S10E08",
+      "preferred_zone": "purple_door",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Hẹn họp 9 giờ đúng mà 9 giờ 15 mới tới! Em cài dây xích cửa rồi, không cho vào phòng ăn bánh nóng đâu!",
+          "face_expression": "angry",
+          "body_gesture": "head_shake"
+        },
+        {
+          "character_id": "rachel",
+          "text": "*thò đầu qua khe cửa* Thôi nào Monica, tụi em bận ghé lấy mẫu giấy mỹ thuật mới cho sếp Bông mà!",
+          "face_expression": "flirty",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "*chen đầu vào ngay dưới Rachel* Nhìn 4 cái đầu tụi em xếp chồng lên nhau đáng thương thế này cơ mà!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        },
+        {
+          "character_id": "ross",
+          "text": "*thò đầu vào* Ngoài ra tụi anh còn mang theo cà phê nóng cho hai vợ chồng nữa!",
+          "face_expression": "panic",
+          "body_gesture": "sip_coffee"
+        },
+        {
+          "character_id": "joey",
+          "text": "*thò đầu cuối cùng bị kẹt nhẹ* Này mở cửa đi, đầu anh sắp kẹt y như bữa Lễ Tạ ơn rồi, mà mùi bánh thơm quá!",
+          "face_expression": "shock",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "chandler",
+          "text": "The floating heads do make a good point, Monica. Mở dây xích cho cả đội vào ăn bánh rồi làm việc nào!",
+          "face_expression": "laugh",
+          "body_gesture": "shrug"
+        }
+      ]
+    },
+    {
+      "id": "group_09_hallway_cheesecake_fork",
+      "title": "Rút dĩa nhập cuộc ăn bánh mẫu giữa hành lang",
+      "pattern": "uninvited_joiner",
+      "participants": ["chandler", "rachel", "joey"],
+      "mid_joiner": {
+        "character_id": "joey",
+        "join_at_turn": 3,
+        "approach_style": "slide_in_with_fork"
+      },
+      "episode_ref": "S07E11",
+      "preferred_zone": "purple_door",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Chandler ơi, cái hộp bánh cheesecake gửi nhầm phòng mình nãy giờ không ai nhận, tụi mình lỡ làm rớt mặt trên ra khay sạch rồi!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Chỉ phần trên cùng chạm khay thôi, phần dưới vẫn nguyên vẹn! Ngồi xuống đây ăn thử thẩm định hương vị cho BoonGood đi — stick to your side!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Ôi trời ơi, mềm tan trong miệng luôn! Đừng để ai đi ngang thấy bộ dạng mất hình tượng này của tụi mình nha...",
+          "face_expression": "hearts",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "joey",
+          "text": "*chạy tới, không hỏi một câu, rút ngay chiếc dĩa từ túi áo ngồi bệt xuống* All right, what are we havin'?",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Sao lúc nào trong túi áo cậu cũng có sẵn một cái dĩa inox vậy Joey?! Thôi ăn đi, chấm điểm giúp sếp Bông luôn!",
+          "face_expression": "laugh",
+          "body_gesture": "head_shake"
+        }
+      ]
+    },
+    {
+      "id": "group_10_lightning_round_transponster",
+      "title": "Đố vui văn phòng — Chức danh Transponster!",
+      "pattern": "escalation_chain",
+      "participants": ["ross", "rachel", "monica", "chandler"],
+      "mid_joiner": null,
+      "episode_ref": "S04E12",
+      "preferred_zone": "orange_sofa",
+      "lines": [
+        {
+          "character_id": "ross",
+          "text": "Vòng Lightning Round đố vui nội bộ BoonGood! Câu quyết định: Chức danh công việc chính xác trước đây của Chandler Bing là gì? 10 giây!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Ờ... liên quan tới số liệu... chiếc cặp công sở... Oh-oh-oh, he's a transponce... TRANSPONDSTER!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "monica",
+          "text": "THAT'S NOT EVEN A WORD!! Trời ơi Rachel, lại thua kèo trà sữa chiều nay rồi!",
+          "face_expression": "angry",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Statistical Analysis and Data Reconfiguration! Còn ở đây với sếp Bông là Dữ liệu, Tài chính & Copywriting — ngắn thế mà vẫn bị gọi là Transponster!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "ross",
+          "text": "Hết giờ! Đội nam thắng kèo trà sữa nhé, chiều nay Rachel nhớ mời mỗi người một ly ít đường!",
+          "face_expression": "laugh",
+          "body_gesture": "excited_bounce"
+        }
+      ]
+    },
+    {
+      "id": "group_11_foosball_rescue",
+      "title": "Giải cứu Gà con Vịt con trong bàn bi lắc",
+      "pattern": "uninvited_joiner",
+      "participants": ["joey", "chandler", "monica"],
+      "mid_joiner": {
+        "character_id": "monica",
+        "join_at_turn": 3,
+        "approach_style": "walk_in_heroic"
+      },
+      "episode_ref": "S10E18",
+      "preferred_zone": "foosball_table",
+      "lines": [
+        {
+          "character_id": "joey",
+          "text": "Chandler ơi, nghe tiếng chíp chíp bên trong không? Hình như Chick Jr. và Duck Jr. chui tọt vào ruột bàn bi lắc mất rồi!",
+          "face_expression": "panic",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Không ổn rồi, phải tháo mặt bàn ra mới cứu được tụi nhỏ... nhưng bàn bi lắc này gắn với kỷ niệm 10 năm của tụi mình, anh cầm búa mà run tay quá!",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "head_shake"
+        },
+        {
+          "character_id": "joey",
+          "text": "Anh cũng không nỡ đập! Hay mình cứ nuôi tụi nó trong bàn luôn, nhét đồ ăn qua lỗ thả bóng?",
+          "face_expression": "shock",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "monica",
+          "text": "*bước tới xắn tay áo cực ngầu* Tránh ra hai ông tướng. I'll do it! Em mở nắp bàn bằng đúng tua-vít chuẩn kỹ thuật cho hai bé ra an toàn mà không gãy một mảnh gỗ nào!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Bà xã em đúng là siêu nhân 'freakishly strong' phiên bản vận hành chuyên nghiệp! Cảm ơn em cứu cả Gà Vịt lẫn bàn bi lắc!",
+          "face_expression": "hearts",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "group_12_secret_closet_raid",
+      "title": "Cuộc đột kích chiếc tủ khóa kín của Monica",
+      "pattern": "storm_in",
+      "participants": ["chandler", "joey", "rachel", "monica"],
+      "mid_joiner": {
+        "character_id": "monica",
+        "join_at_turn": 4,
+        "approach_style": "storm_in"
+      },
+      "episode_ref": "S08E14",
+      "preferred_zone": "monica_secret_closet",
+      "lines": [
+        {
+          "character_id": "joey",
+          "text": "Chandler, cậu nghĩ sau cánh cửa khóa kín kia của Monica giấu gì? Hàng triệu con bọ ăn thịt người hay hộp bánh bí mật?",
+          "face_expression": "shock",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Chắc chắn là kho mẫu hộp quà lỗi từ năm ngoái chị ấy không nỡ vứt nhưng cũng không biết dán nhãn gì!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "chandler",
+          "text": "*cạch* Mở được rồi! Ôi trời ơi, cả núi dây ruy-băng với bản in thử đổ ập ra luôn! I married Fred Sanford!",
+          "face_expression": "laugh",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "joey",
+          "text": "Ồ, không có bọ ăn thịt người, nhưng có hộp bánh quy cũ kìa!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "monica",
+          "text": "*chạy ập tới đóng sập cửa* NÀY! Ai cho ba người mở phòng lưu trữ tạm của em?! Thôi lỡ lộ rồi thì cả ba xắn tay phụ em phân loại 11 danh mục ngay!",
+          "face_expression": "angry",
+          "body_gesture": "point"
+        }
+      ]
+    },
+    {
+      "id": "group_13_eavesdrop_glass_room",
+      "title": "Bốn thám tử nghe lén ngoài phòng họp kính",
+      "pattern": "adjacent_eavesdrop",
+      "participants": ["ross", "monica", "phoebe", "chandler", "joey"],
+      "mid_joiner": null,
+      "episode_ref": "S03E16",
+      "preferred_zone": "desk_ross",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "*áp sát vách kính phòng họp* Suỵt! Ross đang thương lượng giá nhập nguyên liệu với đối tác, mọi người nghe xem anh ấy nói gì!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "ross",
+          "text": "*nói vọng qua khe cửa* Vâng, về mức giá cũ thì... nó cũng... hơi...",
+          "face_expression": "panic",
+          "body_gesture": "idle_talk"
+        },
+        {
+          "character_id": "joey",
+          "text": "*thì thầm nhắc lời qua khe cửa* Awful! Horrible! Đắt quá, giảm mạnh đi!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "chandler",
+          "text": "*thì thầm tiếp* Not good! Nói rõ biên lợi nhuận BoonGood cần tối ưu nữa!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "ross",
+          "text": "*nói lớn* À vâng, giá đó... hơi khác biệt một chút, nhưng tôi có bảng so sánh 3 đối thủ nên đề nghị chiết khấu 12% nhé!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Ôi trời ơi đối tác gật đầu rồi kìa! Đội nhắc bài sau cánh cửa của tụi mình đỉnh thật sự!",
+          "face_expression": "hearts",
+          "body_gesture": "excited_bounce"
+        }
+      ]
+    },
+    {
+      "id": "group_14_pivot_office_rearrange",
+      "title": "Xoay trục chiến lược kiểu PIVOT!",
+      "pattern": "escalation_chain",
+      "participants": ["ross", "chandler", "rachel"],
+      "mid_joiner": null,
+      "episode_ref": "S05E16",
+      "preferred_zone": "orange_sofa",
+      "lines": [
+        {
+          "character_id": "ross",
+          "text": "Để quay góc livestream đẹp hơn cho sếp Bông, tụi mình xoay nhẹ cái kệ trưng bày qua góc trái nhé! Nào: Pivot! Pivot! Piv-ot!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Ross ơi, không còn chỗ để xoay nữa đâu, nó sát góc tường mất rồi!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "ross",
+          "text": "PIVOT! PIVOT! PIV-OT!",
+          "face_expression": "angry",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Shut up! Shut up! Shut uuup! Anh vẽ sơ đồ chi tiết mà không đo chiều ngang cửa ra vào luôn đó Ross!",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "head_shake"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Thôi đặt ngay chỗ cũ đi, ánh sáng hắt từ cửa sổ vào góc đó thực ra lên hình đẹp gấp đôi đấy!",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "group_15_unagi_security_drill",
+      "title": "Diễn tập cảnh giác Unagi bảo mật API Key",
+      "pattern": "storm_in",
+      "participants": ["rachel", "phoebe", "ross"],
+      "mid_joiner": {
+        "character_id": "ross",
+        "join_at_turn": 2,
+        "approach_style": "storm_in"
+      },
+      "episode_ref": "S06E17",
+      "preferred_zone": "desk_rachel",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Phoebe ơi, em nhớ giữ kỹ file .env nha, tuyệt đối không gửi khóa API lên nhóm chat công khai đâu đấy.",
+          "face_expression": "neutral",
+          "body_gesture": "idle_talk"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Yên tâm, chị khóa mật khẩu bằng tên bài hát Smelly Cat rồi, không ai đoán nổi đâu!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        },
+        {
+          "character_id": "ross",
+          "text": "*nhảy từ sau tủ hồ sơ ra* DANGER! DANGER! Hai người chưa đạt trạng thái cảnh giác tuyệt đối — UNAGI!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Á! Ross, anh làm em rớt cả ly cà phê! 'Unagi' là món lươn nước ngọt ăn với sushi mà!",
+          "face_expression": "shock",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Thôi được rồi, nếu anh không trốn sau tủ nữa thì tụi em bật xác thực 2 lớp cho toàn bộ tài khoản BoonGood ngay, chịu chưa ông Tiến sĩ lươn?",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "shrug"
+        }
+      ]
+    },
+    {
+      "id": "group_16_trifle_tasting_panel",
+      "title": "Hội đồng thẩm định món bánh Trifle kỳ lạ",
+      "pattern": "uninvited_joiner",
+      "participants": ["rachel", "ross", "chandler", "joey"],
+      "mid_joiner": {
+        "character_id": "joey",
+        "join_at_turn": 3,
+        "approach_style": "run_in"
+      },
+      "episode_ref": "S06E09",
+      "preferred_zone": "coffee_counter",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Mọi người nếm thử công thức bánh tráng miệng 9 tầng em vừa thử nghiệm cho thực đơn mới nè! Có kem custard, mứt, chuối và... ủa sao có thịt bò đậu Hà Lan?!",
+          "face_expression": "shock",
+          "body_gesture": "idle_talk"
+        },
+        {
+          "character_id": "ross",
+          "text": "*nhăn mặt cực mạnh* It tastes like feet! Rachel ơi, hai trang công thức bị dính vào nhau rồi!",
+          "face_expression": "angry",
+          "body_gesture": "head_shake"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Ngon đến mức anh phải đem ngay ra ban công ngắm chim bồ câu mới thưởng thức hết được...",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "joey",
+          "text": "*chạy tới xúc một muỗng lớn* What's not to like? Custard, good. Jam, good. Meat, GOOD! Đưa phần của Ross với Chandler đây em ăn hết cho!",
+          "face_expression": "hearts",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Haha may quá có Joey cứu danh dự! Nhưng chắc chắn món này KHÔNG đưa vào menu chính thức của sếp Bông đâu nha!",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "group_17_my_sandwich_pantry_alarm",
+      "title": "Báo động đỏ tủ lạnh pantry — MY SANDWICH?!",
+      "pattern": "storm_in",
+      "participants": ["joey", "chandler", "phoebe", "ross"],
+      "mid_joiner": {
+        "character_id": "ross",
+        "join_at_turn": 1,
+        "approach_style": "storm_in"
+      },
+      "episode_ref": "S05E09",
+      "preferred_zone": "coffee_counter",
+      "lines": [
+        {
+          "character_id": "chandler",
+          "text": "Trưa nay yên bình ghê, chẳng có drama gì ở khu pantry cả...",
+          "face_expression": "happy",
+          "body_gesture": "sip_coffee"
+        },
+        {
+          "character_id": "ross",
+          "text": "*lao ra từ tủ lạnh* You threw my sandwich away? My sandwich? MY SANDWICH?! Ổ bánh mì Moist Maker có dán câu đố Knock-knock của tôi đâu rồi?!",
+          "face_expression": "angry",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "joey",
+          "text": "Khoan! Không phải anh nha! Anh chỉ ăn cái phần bánh mì có chữ 'Joey' ở ngăn dưới thôi!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Bình tĩnh Mental Geller! Để chị viết cho anh tờ giấy dán hộp cơm kiểu đường phố, bảo đảm từ mai không ai dám nhìn vào ngăn tủ của anh luôn!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "chandler",
+          "text": "À khoan, Monica vừa nhắn tin bảo bà xã cất hộp bánh mì của anh lên ngăn mát trên cùng để giữ độ giòn kìa Ross!",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        },
+        {
+          "character_id": "ross",
+          "text": "Ồ... vậy hả... Hahaha, I'm fine! Totally fine! Xin lỗi cả phòng nha!",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "shrug"
+        }
+      ]
+    },
+    {
+      "id": "group_18_secret_dinner_caught",
+      "title": "Bị phát hiện buổi họp kín Phoebe & Joey",
+      "pattern": "casual_bombshell",
+      "participants": ["chandler", "phoebe", "joey", "ross"],
+      "mid_joiner": {
+        "character_id": "ross",
+        "join_at_turn": 3,
+        "approach_style": "run_in"
+      },
+      "episode_ref": "S07E11",
+      "preferred_zone": "orange_sofa",
+      "lines": [
+        {
+          "character_id": "chandler",
+          "text": "Tối nay 8 giờ mọi người rảnh không, đi ăn tổng kết tuần với sếp Bông nhé?",
+          "face_expression": "happy",
+          "body_gesture": "idle_talk"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Oh, I have dinner plans with Joey. We get together about once a month to discuss the rest of you guys.",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "joey",
+          "text": "Ừ đúng rồi, họp kín nhận xét phong cách làm việc của bốn người kia. Nhưng yên tâm, đa phần toàn khen thôi!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        },
+        {
+          "character_id": "ross",
+          "text": "*chạy vội lại lấy lòng ngay lập tức* Phoebe! May I say how lovely you look today? Còn kịch bản video mới của Joey hôm nay xuất sắc tuyệt vời luôn!",
+          "face_expression": "flirty",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Duly noted! Cộng cho Tiến sĩ Ross nửa điểm thiện cảm tháng này nhé!",
+          "face_expression": "laugh",
+          "body_gesture": "point"
+        }
+      ]
+    },
+    {
+      "id": "group_19_tiktok_hook_brainstorm",
+      "title": "Cả 6 người tranh nhau nghĩ hook 3 giây TikTok BoonGood",
+      "pattern": "escalation_chain",
+      "participants": ["joey", "rachel", "chandler", "monica", "ross", "phoebe"],
+      "mid_joiner": {
+        "character_id": "phoebe",
+        "join_at_turn": 5,
+        "approach_style": "slide_in_with_guitar"
+      },
+      "episode_ref": "S04E13",
+      "preferred_zone": "desk_joey",
+      "lines": [
+        {
+          "character_id": "joey",
+          "text": "Cả nhà chốt hook 3 giây đầu cho clip TikTok mới của sếp Bông nào! Em mở màn nhìn thẳng camera: 'Hey... How you doin'?' rồi mở hộp bánh liền!",
+          "face_expression": "flirty",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Ổn nhưng ánh sáng phải ấm kiểu nắng chiều và quay cận ruy-băng mở ra thật chậm để tôn vẻ cao cấp của BoonGood!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Thêm dòng chữ nhỏ đầu clip: 'Could this gift box BE any cuter?' — đảm bảo vừa vui vừa nhớ tên thương hiệu!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "monica",
+          "text": "Và trong 15 giây giữa phải quay rõ quy trình đóng gói sạch chuẩn 7 bước để khách yên tâm tuyệt đối về chất lượng!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "ross",
+          "text": "Nhớ chèn dòng nguồn gốc nguyên liệu rõ ràng ở góc dưới để đảm bảo đúng quy định quảng cáo nhé!",
+          "face_expression": "neutral",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "*ôm đàn bước vào gảy một hợp âm* Còn nhạc nền để em đệm guitar mộc cho siêu dễ thương! Chốt kịch bản này gửi sếp Bông duyệt ngay!",
+          "face_expression": "dreamy_sing",
+          "body_gesture": "play_guitar"
+        }
+      ]
+    },
+    {
+      "id": "group_20_janice_oh_my_god",
+      "title": "Báo động OH. MY. GOD. — Khách VIP giọng quen thuộc",
+      "pattern": "storm_in",
+      "participants": ["rachel", "monica", "joey", "chandler"],
+      "mid_joiner": {
+        "character_id": "chandler",
+        "join_at_turn": 3,
+        "approach_style": "run_in"
+      },
+      "episode_ref": "S04E15",
+      "preferred_zone": "desk_chandler",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Mọi người ơi, mới có một chị khách gọi đặt 50 hộp quà, mở đầu câu bằng tiếng cười ré lên 'OH. MY. GOD.' quen lắm luôn!",
+          "face_expression": "shock",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "monica",
+          "text": "Khoan đã... không phải là Janice chứ?! Cả văn phòng im lặng nghe thử xem!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "joey",
+          "text": "Nếu đúng chị ấy đặt 50 hộp quà thì đơn to lắm đó nha, sếp Bông mừng luôn!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "chandler",
+          "text": "*chạy tới xách cặp* Hi, I need one fake ticket to Yemen! 15 Yemen Road, Yemen! Em giao đơn 50 hộp này cho Rachel chăm sóc khách hàng nhé, anh đi trốn đây!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "monica",
+          "text": "Haha đứng lại ngay ông xã! Chỉ là khách hàng cực kỳ hào hứng khen bao bì BoonGood thôi, không phải Janice đâu!",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "group_21_fifty_states_challenge",
+      "title": "Thử thách trí nhớ địa bàn giao hàng",
+      "pattern": "escalation_chain",
+      "participants": ["chandler", "ross", "joey", "monica"],
+      "mid_joiner": {
+        "character_id": "monica",
+        "join_at_turn": 4,
+        "approach_style": "run_in"
+      },
+      "episode_ref": "S07E08",
+      "preferred_zone": "desk_monica",
+      "lines": [
+        {
+          "character_id": "chandler",
+          "text": "Nghỉ giải lao 3 phút chơi trò liệt kê đủ các khu vực giao hàng nhanh của BoonGood không nhìn bản đồ đi!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "idle_talk"
+        },
+        {
+          "character_id": "ross",
+          "text": "Quá dễ đối với một Tiến sĩ! Anh sẽ liệt kê sạch sẽ không sót một quận nào — không có bữa tối cho tới khi xong!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "joey",
+          "text": "Khoan, sao anh đếm ra tới 56 quận vậy? À anh tính cả mấy quán pizza quen vào luôn cho chắc!",
+          "face_expression": "laugh",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Thôi thua cả hai ông bạn rồi, may mà có bảng cước vận chuyển chuẩn của Monica.",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "head_shake"
+        },
+        {
+          "character_id": "monica",
+          "text": "*chạy vào cầm danh sách* Em kể đúng hết rồi, chỉ sót 2 khu ngoại thành xa lắc... Nobody cares about the Dakotas! Để em cập nhật nốt vào Sheet ngay!",
+          "face_expression": "angry",
+          "body_gesture": "excited_bounce"
+        }
+      ]
+    },
+    {
+      "id": "group_22_sure_where_wrap_up",
+      "title": "Chốt ngày hoàn hảo — Sure. Where?",
+      "pattern": "central_perk_hangout",
+      "participants": ["rachel", "monica", "ross", "joey", "phoebe", "chandler"],
+      "mid_joiner": null,
+      "episode_ref": "S10E18",
+      "preferred_zone": "purple_door",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Xong hết checklist hôm nay rồi! Toàn bộ báo cáo, mẫu thiết kế và bảng tính đều đã xếp ngăn nắp chờ sếp Bông duyệt!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "ross",
+          "text": "Hồ sơ pháp lý và Market_Data cũng đã chốt sạch sẽ không một lỗi chính tả.",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "joey",
+          "text": "Còn mấy kịch bản Reels của em đảm bảo sếp Bông xem xong cười tít mắt! Giờ tụi mình đi ăn gì đi, đói quá rồi!",
+          "face_expression": "hearts",
+          "body_gesture": "wave"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Năng lượng cả đội hôm nay đồng điệu như một dàn hợp xướng vậy đó!",
+          "face_expression": "dreamy_sing",
+          "body_gesture": "idle_talk"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Còn sớm xíu nè mọi người — hay cả nhóm ghé làm một ly cà phê tổng kết ngày nhé?",
+          "face_expression": "hearts",
+          "body_gesture": "sip_coffee"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Sure. Where? Chúc sếp Bông một buổi tối thật chill, mai tụi em lại lên đồ chiến tiếp!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "wave"
+        }
+      ]
+    }
+  ]
+}

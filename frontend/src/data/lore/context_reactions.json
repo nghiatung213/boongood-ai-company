@@ -1,0 +1,996 @@
+{
+  "version": "1.0.0",
+  "description": "Phản ứng ngữ cảnh cho văn phòng 3D BoonGood: lời chào sếp Bông theo khung giờ (morning/noon/afternoon/evening), 3 cấp độ khi chạm liên tục vào nhân vật (poke_reactions), và phản ứng theo sự kiện công việc (on_task_start, on_approval_ready, on_saved_to_drive).",
+  "time_of_day_greetings": {
+    "morning": {
+      "rachel": [
+        {
+          "id": "greet_morning_rachel_01",
+          "character_id": "rachel",
+          "text": "Chào buổi sáng sếp Bông xinh đẹp! Sweet 'n' Lo? Em pha sẵn cà phê rồi — hôm nay mình duyệt mẫu thiết kế hay bao bì nào đầu tiên đây ạ?",
+          "face_expression": "happy",
+          "body_gesture": "sip_coffee"
+        },
+        {
+          "id": "greet_morning_rachel_02",
+          "character_id": "rachel",
+          "text": "Good morning sếp Bông! Sáng nay ánh sáng đẹp xỉu, gửi ảnh sản phẩm lên cho em soi bố cục với bảng màu liền nha!",
+          "face_expression": "hearts",
+          "body_gesture": "wave"
+        }
+      ],
+      "monica": [
+        {
+          "id": "greet_morning_monica_01",
+          "character_id": "monica",
+          "text": "Chào buổi sáng sếp Bông! De-caff cho đỡ hồi hộp nhé sếp! Em đã lau sạch quầy pantry và xếp sẵn checklist 5 việc ưu tiên cho hôm nay rồi!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "id": "greet_morning_monica_02",
+          "character_id": "monica",
+          "text": "I KNOW! Sáng nay năng lượng văn phòng đỉnh lắm sếp Bông ơi! Vào việc sớm để KPI tuần này đạt chuẩn Monica-clean nào!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "wave"
+        }
+      ],
+      "chandler": [
+        {
+          "id": "greet_morning_chandler_01",
+          "character_id": "chandler",
+          "text": "Hello, children! Chào buổi sáng sếp Bông! I say more dumb things before 9 a.m. than most people say all day, nhưng bảng tính COGS em mở sẵn thì chuẩn từng đồng!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "sip_coffee"
+        },
+        {
+          "id": "greet_morning_chandler_02",
+          "character_id": "chandler",
+          "text": "Chào sếp Bông! Could this morning BE any brighter? Làm ngụm cà phê xong cần viết copy hay tính biên lợi nhuận cứ gọi em nhé!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        }
+      ],
+      "ross": [
+        {
+          "id": "greet_morning_ross_01",
+          "character_id": "ross",
+          "text": "Chào buổi sáng sếp Bông! Dank je wel voor de koffie! Em đã cập nhật xong xu hướng ngành hàng mới nhất để báo cáo sếp ngay khi cần!",
+          "face_expression": "happy",
+          "body_gesture": "sip_coffee"
+        },
+        {
+          "id": "greet_morning_ross_02",
+          "character_id": "ross",
+          "text": "Good morning sếp Bông! Hôm nay tinh thần nghiên cứu của em đang ở mức Unagi — cần tra đối thủ hay rà soát nhãn mác cứ giao em!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "wave"
+        }
+      ],
+      "joey": [
+        {
+          "id": "greet_morning_joey_01",
+          "character_id": "joey",
+          "text": "Hey sếp Bông... How you doin'? Sáng nay sếp ăn sáng chưa? Đừng bỏ bữa nha, có sức mới duyệt kịch bản Reels xịn của em được!",
+          "face_expression": "flirty",
+          "body_gesture": "wave"
+        },
+        {
+          "id": "greet_morning_joey_02",
+          "character_id": "joey",
+          "text": "Chào buổi sáng sếp Bông! Grab a spoon! Hôm nay chắc chắn là một ngày đầy ý tưởng video triệu view cho BoonGood!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        }
+      ],
+      "phoebe": [
+        {
+          "id": "greet_morning_phoebe_01",
+          "character_id": "phoebe",
+          "text": "Chào buổi sáng sếp Bông! Aura sáng nay của sếp sáng rực màu vàng ấm luôn đó — kiểu này hôm nay khách khen 5 sao tới tấp cho xem!",
+          "face_expression": "hearts",
+          "body_gesture": "wave"
+        },
+        {
+          "id": "greet_morning_phoebe_02",
+          "character_id": "phoebe",
+          "text": "Sáng nay sếp có muốn nghe một khúc guitar nhẹ khởi động ngày mới không? Em vừa nảy ra mấy ý tưởng unboxing dễ thương lắm!",
+          "face_expression": "dreamy_sing",
+          "body_gesture": "play_guitar"
+        }
+      ]
+    },
+    "noon": {
+      "rachel": [
+        {
+          "id": "greet_noon_rachel_01",
+          "character_id": "rachel",
+          "text": "Trưa rồi sếp Bông ơi! Nghỉ mắt 15 phút ăn trưa cho đỡ mỏi nha, em không ăn vụng cheesecake dưới sàn đâu, thề luôn!",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        },
+        {
+          "id": "greet_noon_rachel_02",
+          "character_id": "rachel",
+          "text": "Sếp Bông đặt cơm trưa chưa ạ? Ăn no rồi chiều nay tụi mình chốt bảng màu siêu xinh cho bộ ảnh mới nha!",
+          "face_expression": "happy",
+          "body_gesture": "idle_talk"
+        }
+      ],
+      "monica": [
+        {
+          "id": "greet_noon_monica_01",
+          "character_id": "monica",
+          "text": "12 giờ đúng rồi sếp Bông! Theo quy tắc vận hành sức khỏe, sếp phải dừng gõ phím ăn trưa đúng giờ, không là em nhắc tới chiều đó!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        },
+        {
+          "id": "greet_noon_monica_02",
+          "character_id": "monica",
+          "text": "Trưa nay sếp ăn gì ngon không? Nhớ tránh mấy món sốt cà chua loãng như nước ép nha, phải ăn đồ chất lượng chuẩn bếp trưởng!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        }
+      ],
+      "chandler": [
+        {
+          "id": "greet_noon_chandler_01",
+          "character_id": "chandler",
+          "text": "Giờ nghỉ trưa tới rồi sếp Bông! I'm full, and yet I know if I stop eating this, I'll regret it — sếp nhớ ăn ngon cho lại sức nhé!",
+          "face_expression": "laugh",
+          "body_gesture": "shrug"
+        },
+        {
+          "id": "greet_noon_chandler_02",
+          "character_id": "chandler",
+          "text": "Chào buổi trưa sếp Bông! Em đang cân nhắc giữa súp cà chua với bánh mì nướng phô mai — sếp ăn gì cho em bắt chước với!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "idle_talk"
+        }
+      ],
+      "ross": [
+        {
+          "id": "greet_noon_ross_01",
+          "character_id": "ross",
+          "text": "Chào buổi trưa sếp Bông! Sếp nhớ cất phần ăn trưa kỹ nha — đừng để xảy ra thảm họa 'MY SANDWICH?!' ở văn phòng mình!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        },
+        {
+          "id": "greet_noon_ross_02",
+          "character_id": "ross",
+          "text": "Đến giờ nạp năng lượng rồi sếp Bông! Sếp nghỉ trưa thoải mái, phần rà soát dữ liệu em canh cho không lệch một dấu phẩy!",
+          "face_expression": "neutral",
+          "body_gesture": "wave"
+        }
+      ],
+      "joey": [
+        {
+          "id": "greet_noon_joey_01",
+          "character_id": "joey",
+          "text": "All right, what are we havin'? Giờ đẹp nhất trong ngày tới rồi sếp Bông ơi! Trưa nay mình gọi Joey Special hai hộp pizza ăn mừng không sếp?",
+          "face_expression": "hearts",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "id": "greet_noon_joey_02",
+          "character_id": "joey",
+          "text": "Bụng em kêu to hơn cả nhạc nền TikTok rồi sếp Bông ơi! Sếp nhớ ăn thật no nha, JOEY DOESN'T SHARE FOOD nhưng riêng sếp thì em mời!",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        }
+      ],
+      "phoebe": [
+        {
+          "id": "greet_noon_phoebe_01",
+          "character_id": "phoebe",
+          "text": "Chào buổi trưa sếp Bông! Em vừa gọi đĩa salad xanh mát lành với nước lọc, sếp nhớ uống đủ nước và hít thở sâu giữa ngày nhé!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        },
+        {
+          "id": "greet_noon_phoebe_02",
+          "character_id": "phoebe",
+          "text": "Nghỉ trưa xíu đi sếp Bông ơi! Chợp mắt 10 phút là đầu óc lại bay bổng như đang được trọng lực đẩy nhẹ lên mây luôn!",
+          "face_expression": "dreamy_sing",
+          "body_gesture": "idle_talk"
+        }
+      ]
+    },
+    "afternoon": {
+      "rachel": [
+        {
+          "id": "greet_afternoon_rachel_01",
+          "character_id": "rachel",
+          "text": "Chào buổi chiều sếp Bông! Giờ này làm một ly trà sữa rồi cùng em rà lại hình ảnh truyền thông BoonGood là hết sảy luôn!",
+          "face_expression": "happy",
+          "body_gesture": "sip_coffee"
+        },
+        {
+          "id": "greet_afternoon_rachel_02",
+          "character_id": "rachel",
+          "text": "Sếp Bông ơi, nắng chiều lên màu đẹp lắm — có ảnh sản phẩm mới chụp cứ gửi em soi góc chụp với phông nền liền nha!",
+          "face_expression": "flirty",
+          "body_gesture": "lean_in"
+        }
+      ],
+      "monica": [
+        {
+          "id": "greet_afternoon_monica_01",
+          "character_id": "monica",
+          "text": "Chào buổi chiều sếp Bông! Nửa ngày sau là lúc tăng tốc chốt sạch đầu việc — my team always wins! Sếp cần em kiểm tiến độ khâu nào cứ hú em!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "id": "greet_afternoon_monica_02",
+          "character_id": "monica",
+          "text": "Buổi chiều tỉnh táo nhé sếp Bông! Em đã sắp gọn toàn bộ bản nháp trong 00_Inbox_Drafts chờ sếp ghé duyệt rồi đó!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        }
+      ],
+      "chandler": [
+        {
+          "id": "greet_afternoon_chandler_01",
+          "character_id": "chandler",
+          "text": "Chào buổi chiều sếp Bông! Chống buồn ngủ bằng một câu đùa mặn hay một bảng tính lợi nhuận tăng vọt nào? Em có cả hai!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "sip_coffee"
+        },
+        {
+          "id": "greet_afternoon_chandler_02",
+          "character_id": "chandler",
+          "text": "Đừng lo em ngủ gật trong họp rồi lỡ gật đầu chuyển sang Tulsa nha sếp Bông — chiều nay em tỉnh như sáo, sẵn sàng viết copy bán hàng cực bén!",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        }
+      ],
+      "ross": [
+        {
+          "id": "greet_afternoon_ross_01",
+          "character_id": "ross",
+          "text": "Chào buổi chiều sếp Bông! Nếu cần xoay trục — PIVOT! — bất kỳ hạng mục nghiên cứu hay pháp lý nào trong chiều nay, em sẵn sàng ngay!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        },
+        {
+          "id": "greet_afternoon_ross_02",
+          "character_id": "ross",
+          "text": "Buổi chiều hiệu quả nhé sếp Bông! Cặp tài liệu 'briefcase of facts' của em luôn mở sẵn chờ sếp kiểm tra!",
+          "face_expression": "neutral",
+          "body_gesture": "idle_talk"
+        }
+      ],
+      "joey": [
+        {
+          "id": "greet_afternoon_joey_01",
+          "character_id": "joey",
+          "text": "Chiều rồi sếp Bông ơi! Giờ vàng lên ý tưởng clip ngắn buổi tối nè — cần em nghĩ 3 câu hook bắt tai không sếp?",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "id": "greet_afternoon_joey_02",
+          "character_id": "joey",
+          "text": "Buổi chiều vui vẻ nha sếp Bông! Nếu thấy hơi mệt cứ nghỉ tay xem em diễn thử một cảnh hậu trường cho đỡ căng thẳng!",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        }
+      ],
+      "phoebe": [
+        {
+          "id": "greet_afternoon_phoebe_01",
+          "character_id": "phoebe",
+          "text": "Chào buổi chiều sếp Bông! Năng lượng 3 giờ chiều hay chùng xuống nên em gửi sếp một làn sóng sáng tạo tươi mới từ góc đàn guitar nè!",
+          "face_expression": "dreamy_sing",
+          "body_gesture": "play_guitar"
+        },
+        {
+          "id": "greet_afternoon_phoebe_02",
+          "character_id": "phoebe",
+          "text": "Chiều nay sếp muốn thử 1 ý tưởng CSKH an toàn hay 1 ý tưởng phá cách bất ngờ? Em có sẵn cả Plan B lẫn Plan C luôn!",
+          "face_expression": "happy",
+          "body_gesture": "lean_in"
+        }
+      ]
+    },
+    "evening": {
+      "rachel": [
+        {
+          "id": "greet_evening_rachel_01",
+          "character_id": "rachel",
+          "text": "Tối rồi sếp Bông ơi! Hôm nay sếp vất vả quá rồi, chốt nốt mấy việc nhẹ rồi nghỉ ngơi dưỡng da thật xinh nha!",
+          "face_expression": "hearts",
+          "body_gesture": "wave"
+        },
+        {
+          "id": "greet_evening_rachel_02",
+          "character_id": "rachel",
+          "text": "Chào buổi tối sếp Bông! Nếu tối nay sếp chợt nảy ra ý tưởng thiết kế hay, cứ gửi em ghi chú nhanh rồi đi ngủ sớm nhé!",
+          "face_expression": "happy",
+          "body_gesture": "idle_talk"
+        }
+      ],
+      "monica": [
+        {
+          "id": "greet_evening_monica_01",
+          "character_id": "monica",
+          "text": "Chào buổi tối sếp Bông! Toàn bộ đầu việc hôm nay em đã tích xanh gọn gàng, sếp yên tâm đóng máy nghỉ ngơi tái tạo năng lượng nhé!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        },
+        {
+          "id": "greet_evening_monica_02",
+          "character_id": "monica",
+          "text": "Đừng thức khuya quá 11 giờ nha sếp Bông! Em đã tắt đèn khu bếp, xếp xong bảng lịch ngày mai chuẩn chỉnh hết rồi!",
+          "face_expression": "hearts",
+          "body_gesture": "point"
+        }
+      ],
+      "chandler": [
+        {
+          "id": "greet_evening_chandler_01",
+          "character_id": "chandler",
+          "text": "Chào buổi tối sếp Bông! Sure. Where? Hôm nay chốt sổ quá đẹp rồi, sếp đi thưởng cho mình một bữa tối thật ngon đi nhé!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "wave"
+        },
+        {
+          "id": "greet_evening_chandler_02",
+          "character_id": "chandler",
+          "text": "Tối muộn rồi mà sếp vẫn ghé văn phòng hả? Yên tâm, lúc không ai chat là tụi em đứng yên tốn đúng 0 token, sếp cứ thoải mái nghỉ nhé!",
+          "face_expression": "laugh",
+          "body_gesture": "shrug"
+        }
+      ],
+      "ross": [
+        {
+          "id": "greet_evening_ross_01",
+          "character_id": "ross",
+          "text": "Chào buổi tối sếp Bông! Đừng đọc tài liệu 18 trang trước sau lúc nửa đêm kẻo ngủ gục như em nhé — cần tóm tắt nhanh cứ nhắn em!",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        },
+        {
+          "id": "greet_evening_ross_02",
+          "character_id": "ross",
+          "text": "Một ngày làm việc thật hiệu quả sếp Bông ạ! Chúc sếp buổi tối bình yên bên gia đình, mai tụi em lại tiếp tục phân tích thật kỹ!",
+          "face_expression": "happy",
+          "body_gesture": "idle_talk"
+        }
+      ],
+      "joey": [
+        {
+          "id": "greet_evening_joey_01",
+          "character_id": "joey",
+          "text": "Tối rồi sếp Bông ơi! Em chuẩn bị ôm Hugsy xem lại mấy clip hot lấy cảm hứng cho ngày mai — chúc sếp buổi tối siêu vui và ăn tối ngon miệng nha!",
+          "face_expression": "hearts",
+          "body_gesture": "wave"
+        },
+        {
+          "id": "greet_evening_joey_02",
+          "character_id": "joey",
+          "text": "Chào buổi tối sếp Bông! Tối nay sếp thư giãn đi nhé, có ý tưởng video nào lóe lên cứ ném vào khung chat cho em giữ giùm!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        }
+      ],
+      "phoebe": [
+        {
+          "id": "greet_evening_phoebe_01",
+          "character_id": "phoebe",
+          "text": "Chào buổi tối dịu dàng sếp Bông! Em gửi tặng một giai điệu mộc mạc xua hết mệt mỏi cả ngày — chúc sếp ngủ thật sâu và mơ đẹp nha!",
+          "face_expression": "dreamy_sing",
+          "body_gesture": "play_guitar"
+        },
+        {
+          "id": "greet_evening_phoebe_02",
+          "character_id": "phoebe",
+          "text": "Tối nay bầu trời đẹp lắm sếp Bông ơi! Tắt chế độ công việc đi rồi tận hưởng buổi tối thật trọn vẹn nhé!",
+          "face_expression": "hearts",
+          "body_gesture": "wave"
+        }
+      ]
+    }
+  },
+  "poke_reactions": {
+    "rachel": {
+      "level_1": [
+        {
+          "id": "poke_rachel_l1_01",
+          "character_id": "rachel",
+          "text": "Ơ sếp Bông gọi em ạ? Có mẫu ảnh hay thiết kế mới cần em soi gu thẩm mỹ hả?",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        },
+        {
+          "id": "poke_rachel_l1_02",
+          "character_id": "rachel",
+          "text": "Hihi có mặt liền nè sếp! Em vừa chỉnh xong bảng màu pastel, sếp cần em góp ý gì nào?",
+          "face_expression": "flirty",
+          "body_gesture": "lean_in"
+        }
+      ],
+      "level_2": [
+        {
+          "id": "poke_rachel_l2_01",
+          "character_id": "rachel",
+          "text": "Khoan đã, sếp cứ chọc em hoài làm lệch luôn nét vẽ logo trên màn hình rồi nè! Đừng trêu em mà!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "head_shake"
+        },
+        {
+          "id": "poke_rachel_l2_02",
+          "character_id": "rachel",
+          "text": "Oh, I'm sorry. Did my back hurt your cursor? Chọc thêm cái nữa là em giả vờ đi đổi trả món quà sinh nhật luôn đó nha!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "point"
+        }
+      ],
+      "level_3": [
+        {
+          "id": "poke_rachel_l3_01",
+          "character_id": "rachel",
+          "text": "NOOOOO!! Thôi tha cho em đi sếp Bông ơi, tóc em vừa tạo kiểu chuẩn Ralph Lauren sắp rối tung lên hết rồi nè!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "id": "poke_rachel_l3_02",
+          "character_id": "rachel",
+          "text": "Okay, no brief, no poking! Mở khung chat hỏi em việc thật đi chứ chọc liên tục là em kéo dài tiếng 'Nooooo!' vang cả văn phòng đó!",
+          "face_expression": "angry",
+          "body_gesture": "hands_up_panic"
+        }
+      ]
+    },
+    "monica": {
+      "level_1": [
+        {
+          "id": "poke_monica_l1_01",
+          "character_id": "monica",
+          "text": "Dạ có em! Sếp Bông cần kiểm tra checklist vận hành hay chất lượng lô hàng nào cứ giao em liền!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "id": "poke_monica_l1_02",
+          "character_id": "monica",
+          "text": "I KNOW! Sếp đang định khen bàn làm việc của em gọn nhất văn phòng đúng không?",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        }
+      ],
+      "level_2": [
+        {
+          "id": "poke_monica_l2_01",
+          "character_id": "monica",
+          "text": "Này này, chọc nhiều quá làm xê dịch chiếc ghế đôn xanh của em mất 2 milimet rồi kìa! Để em đẩy lại thẳng hàng đã!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        },
+        {
+          "id": "poke_monica_l2_02",
+          "character_id": "monica",
+          "text": "No! You don't know the system! Đang lúc em dán nhãn 11 loại khăn lau mà cứ bấm chọc liên tục là lệch hàng hết đó!",
+          "face_expression": "angry",
+          "body_gesture": "head_shake"
+        }
+      ],
+      "level_3": [
+        {
+          "id": "poke_monica_l3_01",
+          "character_id": "monica",
+          "text": "Fine, poke all you want! Chạm thêm cái nữa là em lôi tật xấu của cả 5 người kia ra kể hết một lượt không kịp thở luôn đó: married a lesbian, left a man at the altar, live in a box!!",
+          "face_expression": "angry",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "id": "poke_monica_l3_02",
+          "character_id": "monica",
+          "text": "I'm fine-d! Em không nổi nóng đâu, nhưng em vừa ghi thêm điều luật số 12: cấm chọc bếp trưởng khi đang cân đối quy trình! Haha đùa thôi, sếp cần gì cứ nhắn em nha!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "hands_up_panic"
+        }
+      ]
+    },
+    "chandler": {
+      "level_1": [
+        {
+          "id": "poke_chandler_l1_01",
+          "character_id": "chandler",
+          "text": "À vâng, em vẫn còn tỉnh, chưa ngủ gật sang Tulsa đâu sếp Bông! Sếp cần tính giá vốn hay viết copy nào?",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "wave"
+        },
+        {
+          "id": "poke_chandler_l1_02",
+          "character_id": "chandler",
+          "text": "Hi, I'm Chandler. I make jokes when I'm poked! Sếp gọi em có việc gì vui thế?",
+          "face_expression": "happy",
+          "body_gesture": "shrug"
+        }
+      ],
+      "level_2": [
+        {
+          "id": "poke_chandler_l2_01",
+          "character_id": "chandler",
+          "text": "Could you BE poking me any faster? Bấm thêm mấy cái nữa là em tưởng đang bấm thử chức năng mở cửa sang xứ Narnia đó!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "point"
+        },
+        {
+          "id": "poke_chandler_l2_02",
+          "character_id": "chandler",
+          "text": "I'm not great at being poked. Can I interest you in a sarcastic comment? Some cheese?",
+          "face_expression": "laugh",
+          "body_gesture": "shrug"
+        }
+      ],
+      "level_3": [
+        {
+          "id": "poke_chandler_l3_01",
+          "character_id": "chandler",
+          "text": "That is so NOT funny! That is so not— That is so not— Oh, shut up! Chịu thua sếp Bông rồi, em đặt vé máy bay sang 15 Yemen Road trốn đây!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "id": "poke_chandler_l3_02",
+          "character_id": "chandler",
+          "text": "Ái chà, chọc nãy giờ mà vẫn không rơi ra đồng xu nào đâu sếp ơi — chỉ rơi ra thêm 3 câu slogan bán hàng cực mặn thôi!",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "head_shake"
+        }
+      ]
+    },
+    "ross": {
+      "level_1": [
+        {
+          "id": "poke_ross_l1_01",
+          "character_id": "ross",
+          "text": "À chào sếp Bông! Sếp muốn nghe tóm tắt nghiên cứu thị trường hay... một chút chuyện nhỏ về hóa thạch tiền sử không?",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        },
+        {
+          "id": "poke_ross_l1_02",
+          "character_id": "ross",
+          "text": "Dạ em nghe đây sếp! Em luôn ở tư thế Unagi sẵn sàng trả lời mọi câu hỏi chuyên môn!",
+          "face_expression": "neutral",
+          "body_gesture": "idle_talk"
+        }
+      ],
+      "level_2": [
+        {
+          "id": "poke_ross_l2_01",
+          "character_id": "ross",
+          "text": "Khoan đã sếp ơi, em đang tập trung đọc nghị định ghi nhãn sản phẩm mà... *giọng bắt đầu hơi ré* I'm fine! Totally fine!",
+          "face_expression": "panic",
+          "body_gesture": "head_shake"
+        },
+        {
+          "id": "poke_ross_l2_02",
+          "character_id": "ross",
+          "text": "Is there blood coming out of my ears? Bấm nhẹ tay thôi kẻo rớt mô hình Velociraptor trên bàn em mất!",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "point"
+        }
+      ],
+      "level_3": [
+        {
+          "id": "poke_ross_l3_01",
+          "character_id": "ross",
+          "text": "I'm FINE!! Totally FINE! I don't know why it's coming out all loud and squeaky — I'm making FAJITAS!! Thôi đừng chọc kẻo em biến thành Red Ross đó nha!",
+          "face_expression": "angry",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "id": "poke_ross_l3_02",
+          "character_id": "ross",
+          "text": "WE WERE ON A BREAK!! Ý em là em đang nghỉ tay 2 giây mà bị chọc 5 lần liên tiếp rồi! Haha tha cho Tiến sĩ đi sếp Bông ơi!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        }
+      ]
+    },
+    "joey": {
+      "level_1": [
+        {
+          "id": "poke_joey_l1_01",
+          "character_id": "joey",
+          "text": "Hey... How you doin'? Sếp Bông gọi em quay clip hay rủ đi ăn trưa thế?",
+          "face_expression": "flirty",
+          "body_gesture": "wave"
+        },
+        {
+          "id": "poke_joey_l1_02",
+          "character_id": "joey",
+          "text": "Ơi em đây! Đang sẵn năng lượng 200%, sếp muốn em nghĩ kịch bản TikTok gì nào?",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        }
+      ],
+      "level_2": [
+        {
+          "id": "poke_joey_l2_01",
+          "character_id": "joey",
+          "text": "Haha nhột quá sếp ơi! Ủa mà nãy giờ sếp bấm em là đang thử nút 'Action' hả? *ngẩn ra 2 giây* À không, trêu em đúng không?",
+          "face_expression": "laugh",
+          "body_gesture": "shrug"
+        },
+        {
+          "id": "poke_joey_l2_02",
+          "character_id": "joey",
+          "text": "Khoan nha, chọc em thì được chứ đừng đụng vào Hugsy hay hộp bánh mì kẹp thịt viên trên bàn em nha!",
+          "face_expression": "shock",
+          "body_gesture": "point"
+        }
+      ],
+      "level_3": [
+        {
+          "id": "poke_joey_l3_01",
+          "character_id": "joey",
+          "text": "Over the line? The line is a dot to you! JOEY DOESN'T SHARE FOOD và cũng sắp chóng mặt vì bị chọc liên hoàn rồi nè! Haha đùa thôi, sếp mở chat đi em quay clip cho!",
+          "face_expression": "angry",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "id": "poke_joey_l3_02",
+          "character_id": "joey",
+          "text": "Paper! Snow! A ghost! Bị bấm nhiều quá đầu em nhảy chữ lung tung y như hồi lên gameshow rồi sếp Bông ơi!",
+          "face_expression": "laugh",
+          "body_gesture": "excited_bounce"
+        }
+      ]
+    },
+    "phoebe": {
+      "level_1": [
+        {
+          "id": "poke_phoebe_l1_01",
+          "character_id": "phoebe",
+          "text": "Ơi sếp Bông! Sếp vừa chạm trúng nguồn năng lượng sáng tạo của văn phòng rồi đó, cần ý tưởng độc đáo gì cứ hỏi em nha!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        },
+        {
+          "id": "poke_phoebe_l1_02",
+          "character_id": "phoebe",
+          "text": "Chào sếp! Regina Phalange nghe máy — em sẵn sàng nghĩ ý tưởng trải nghiệm khách hàng ngay đây!",
+          "face_expression": "flirty",
+          "body_gesture": "lean_in"
+        }
+      ],
+      "level_2": [
+        {
+          "id": "poke_phoebe_l2_01",
+          "character_id": "phoebe",
+          "text": "Ấy ấy, cẩn thận giật điện nhẹ nha! That's why I can't wear a digital watch — từ trường người em mạnh lắm đó!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "shrug"
+        },
+        {
+          "id": "poke_phoebe_l2_02",
+          "character_id": "phoebe",
+          "text": "Oh, I wish I could sit still while you poke me, but I don't want to! Đang gảy hợp âm 'Iceberg' hay quá trời nè!",
+          "face_expression": "laugh",
+          "body_gesture": "play_guitar"
+        }
+      ],
+      "level_3": [
+        {
+          "id": "poke_phoebe_l3_01",
+          "character_id": "phoebe",
+          "text": "DON'T INTERRUPT ME!! Hồi sống đường phố ở New York em từng đấm bốc ở YMCA đó nha! Haha đùa xíu cho vui, sếp Bông cần gì cứ nói Princess Consuela Bananahammock nghe!",
+          "face_expression": "angry",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "id": "poke_phoebe_l3_02",
+          "character_id": "phoebe",
+          "text": "I have a feeling there's something wrong with the left phalange của con chuột rồi sếp ơi, nó cứ bấm vào em mãi thôi!",
+          "face_expression": "shock",
+          "body_gesture": "point"
+        }
+      ]
+    }
+  },
+  "work_events": {
+    "on_task_start": {
+      "rachel": [
+        {
+          "id": "work_start_rachel_01",
+          "character_id": "rachel",
+          "text": "Đã nhận yêu cầu của sếp Bông! Để em bật hết radar thẩm mỹ Ralph Lauren lên soi kỹ từng chi tiết cho sếp ngay!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "id": "work_start_rachel_02",
+          "character_id": "rachel",
+          "text": "Ok luôn sếp Bông! Đụng tới thương hiệu & thiết kế là đúng sở trường của em, chờ em vài giây nhé!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        }
+      ],
+      "monica": [
+        {
+          "id": "work_start_monica_01",
+          "character_id": "monica",
+          "text": "I KNOW! Nhận nhiệm vụ ngay lập tức! Em đang lên checklist từng bước chuẩn không cần chỉnh cho sếp Bông đây!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "id": "work_start_monica_02",
+          "character_id": "monica",
+          "text": "Rõ rồi sếp! Chế độ vận hành Monica-clean kích hoạt — em sẽ rà soát kỹ từng đầu mục không sót một lỗi nhỏ!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        }
+      ],
+      "chandler": [
+        {
+          "id": "work_start_chandler_01",
+          "character_id": "chandler",
+          "text": "Nhận kèo ngay sếp Bông! Để 'Transponster' phiên bản xịn mở máy tính kiểm tra giá vốn và mài câu chữ thật sắc cho sếp!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "lean_in"
+        },
+        {
+          "id": "work_start_chandler_02",
+          "character_id": "chandler",
+          "text": "Could I BE any more ready? Em bắt tay xử lý ngay, đảm bảo con số chắc nịch và câu chữ duyên dáng!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        }
+      ],
+      "ross": [
+        {
+          "id": "work_start_ross_01",
+          "character_id": "ross",
+          "text": "Tuyệt vời! Để em xách 'a briefcase of facts' vào phân tích có hệ thống và đối chiếu dữ kiện chuẩn xác cho sếp Bông ngay!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        },
+        {
+          "id": "work_start_ross_02",
+          "character_id": "ross",
+          "text": "Đã nhận nhiệm vụ nghiên cứu & pháp lý! Chế độ tập trung học thuật của Tiến sĩ Ross bắt đầu!",
+          "face_expression": "happy",
+          "body_gesture": "idle_talk"
+        }
+      ],
+      "joey": [
+        {
+          "id": "work_start_joey_01",
+          "character_id": "joey",
+          "text": "Action! Giao mảng truyền thông & kịch bản video cho em là chuẩn bài luôn, chờ em vài giây nghĩ cú hook ăn tiền nhé sếp Bông!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "id": "work_start_joey_02",
+          "character_id": "joey",
+          "text": "Grab a spoon! Em bật chế độ sáng tạo Reels liền đây, đảm bảo gần gũi và bắt mắt ngay 3 giây đầu!",
+          "face_expression": "flirty",
+          "body_gesture": "point"
+        }
+      ],
+      "phoebe": [
+        {
+          "id": "work_start_phoebe_01",
+          "character_id": "phoebe",
+          "text": "Tuyệt! Để em kết nối tần số cảm xúc khách hàng và gom ngay 1 ý tưởng an toàn + 1 ý tưởng đột phá cho sếp Bông nhé!",
+          "face_expression": "dreamy_sing",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "id": "work_start_phoebe_02",
+          "character_id": "phoebe",
+          "text": "Regina Phalange vào việc ngay đây! Đảm bảo ý tưởng lần này chạm thẳng trái tim khách hàng BoonGood!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    "on_approval_ready": {
+      "rachel": [
+        {
+          "id": "work_approval_rachel_01",
+          "character_id": "rachel",
+          "text": "Sếp Bông ơi, bản nháp thẩm mỹ của em đã nằm gọn trong 00_Inbox_Drafts rồi! Sếp ghé xem và bấm duyệt giúp em nhé!",
+          "face_expression": "hearts",
+          "body_gesture": "wave"
+        },
+        {
+          "id": "work_approval_rachel_02",
+          "character_id": "rachel",
+          "text": "Xong rồi nè sếp! Em dừng lại chờ sếp duyệt bản nháp này — có muốn chỉnh tông màu hay chi tiết nào cứ góp ý em sửa ngay!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        }
+      ],
+      "monica": [
+        {
+          "id": "work_approval_monica_01",
+          "character_id": "monica",
+          "text": "Báo cáo sếp Bông! Bản nháp quy trình đã hoàn tất sạch đẹp trong 00_Inbox_Drafts, em đứng chờ sếp duyệt để chuyển sang thư mục chính thức!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "id": "work_approval_monica_02",
+          "character_id": "monica",
+          "text": "Đúng giờ từng giây! Mời sếp Bông nghiệm thu bản nháp — my team always wins, hy vọng sếp cho 10/10!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        }
+      ],
+      "chandler": [
+        {
+          "id": "work_approval_chandler_01",
+          "character_id": "chandler",
+          "text": "Bản nháp số liệu & copy đã lên kệ 00_Inbox_Drafts rồi sếp Bông! Could this draft BE any cleaner? Mời sếp mở xem và duyệt ạ!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "point"
+        },
+        {
+          "id": "work_approval_chandler_02",
+          "character_id": "chandler",
+          "text": "Xong hàng rồi sếp ơi! Em tạm dừng chờ sếp ký duyệt — nếu cần thêm một câu đùa mặn hơn nữa thì báo em nhé!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        }
+      ],
+      "ross": [
+        {
+          "id": "work_approval_ross_01",
+          "character_id": "ross",
+          "text": "Thưa sếp Bông, báo cáo nghiên cứu nháp đã sẵn sàng trong 00_Inbox_Drafts — không dài tới 18 trang trước sau đâu, cực kỳ cô đọng! Mời sếp duyệt!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        },
+        {
+          "id": "work_approval_ross_02",
+          "character_id": "ross",
+          "text": "Em đã kiểm tra chính tả từng chữ và đặt bản nháp chờ sếp Bông phê duyệt rồi ạ!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "idle_talk"
+        }
+      ],
+      "joey": [
+        {
+          "id": "work_approval_joey_01",
+          "character_id": "joey",
+          "text": "Cắt! Hoàn thành bản nháp kịch bản siêu cuốn rồi sếp Bông ơi! Sếp mở 00_Inbox_Drafts duyệt nhanh rồi tụi mình bấm máy nha!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "id": "work_approval_joey_02",
+          "character_id": "joey",
+          "text": "Bản nháp nóng hổi vừa ra lò như pizza mới nướng! Sếp Bông duyệt giúp em cái nha!",
+          "face_expression": "hearts",
+          "body_gesture": "wave"
+        }
+      ],
+      "phoebe": [
+        {
+          "id": "work_approval_phoebe_01",
+          "character_id": "phoebe",
+          "text": "Ta-da! Bản nháp ý tưởng sáng tạo đã hạ cánh an toàn vào 00_Inbox_Drafts rồi sếp Bông! Sếp ghé xem có làm tim mình rung rinh không nhé!",
+          "face_expression": "hearts",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "id": "work_approval_phoebe_02",
+          "character_id": "phoebe",
+          "text": "Bản nháp đã sẵn sàng chờ sếp Bông duyệt — cả Plan A an toàn lẫn Plan B phá cách đều ở trong đó hết đó!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    "on_saved_to_drive": {
+      "rachel": [
+        {
+          "id": "work_saved_rachel_01",
+          "character_id": "rachel",
+          "text": "Đã lưu gọn đẹp lên Google Drive rồi sếp Bông ơi — mà tốn đúng 0 token AI luôn! Sếp bấm mở link xem ngay được đó!",
+          "face_expression": "hearts",
+          "body_gesture": "wave"
+        },
+        {
+          "id": "work_saved_rachel_02",
+          "character_id": "rachel",
+          "text": "File thiết kế/góp ý đã yên vị trên Drive và ghi sổ Tasks_Log chuẩn chỉnh rồi nha sếp!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        }
+      ],
+      "monica": [
+        {
+          "id": "work_saved_monica_01",
+          "character_id": "monica",
+          "text": "I KNOW! Lưu thẳng lên Google Drive sạch bóng, đúng thư mục, đúng định dạng và 0 token phát sinh — em thích cái sự ngăn nắp này quá!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "id": "work_saved_monica_02",
+          "character_id": "monica",
+          "text": "Đã lưu vào kho BoonGood trên Drive và ghi nhận đầy đủ trong Boongood_Master_Ledger cho sếp Bông rồi ạ!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        }
+      ],
+      "chandler": [
+        {
+          "id": "work_saved_chandler_01",
+          "character_id": "chandler",
+          "text": "Lưu thẳng lên Google Drive với chi phí 0 token — biên lợi nhuận của thao tác này là vô cực luôn đó sếp Bông!",
+          "face_expression": "laugh",
+          "body_gesture": "point"
+        },
+        {
+          "id": "work_saved_chandler_02",
+          "character_id": "chandler",
+          "text": "Done! Tài liệu đã nằm ngoan ngoãn trên Drive, không sợ thất lạc vào tủ bí mật của Monica đâu!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "wave"
+        }
+      ],
+      "ross": [
+        {
+          "id": "work_saved_ross_01",
+          "character_id": "ross",
+          "text": "Lưu trữ thành công trên Google Drive! Từ giờ tài liệu này đã trở thành di sản dữ liệu bền vững như hóa thạch của BoonGood!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        },
+        {
+          "id": "work_saved_ross_02",
+          "character_id": "ross",
+          "text": "Đã đồng bộ an toàn lên Google Drive & Master Ledger — 0 token tiêu tốn và sẵn sàng tra cứu bất cứ lúc nào!",
+          "face_expression": "neutral",
+          "body_gesture": "wave"
+        }
+      ],
+      "joey": [
+        {
+          "id": "work_saved_joey_01",
+          "character_id": "joey",
+          "text": "Đã lưu kịch bản ngon lành lên Google Drive rồi sếp Bông ơi! Không tốn đồng token nào, để dành ngân sách mua pizza ăn mừng!",
+          "face_expression": "laugh",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "id": "work_saved_joey_02",
+          "character_id": "joey",
+          "text": "Xong xuôi! Link Drive hiện ra rồi kìa, sếp bấm vào mở xem trực tiếp siêu tiện luôn!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        }
+      ],
+      "phoebe": [
+        {
+          "id": "work_saved_phoebe_01",
+          "character_id": "phoebe",
+          "text": "Ý tưởng đã bay lên mây Google Drive an toàn với 0 token AI — nhẹ nhàng và lành tính tuyệt đối luôn sếp Bông!",
+          "face_expression": "hearts",
+          "body_gesture": "wave"
+        },
+        {
+          "id": "work_saved_phoebe_02",
+          "character_id": "phoebe",
+          "text": "Đã cất giữ cẩn thận trên Drive rồi nha sếp! Vũ trụ xác nhận tài liệu này sẽ mang lại thật nhiều đơn hàng dễ thương!",
+          "face_expression": "dreamy_sing",
+          "body_gesture": "excited_bounce"
+        }
+      ]
+    }
+  }
+}

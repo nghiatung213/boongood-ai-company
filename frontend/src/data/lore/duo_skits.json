@@ -1,0 +1,1254 @@
+{
+  "version": "1.0.0",
+  "description": "36 tiểu phẩm đối thoại 2 người (4-6 lượt thoại/tiểu phẩm), phủ đủ cả 15 cặp nhân vật trong văn phòng 3D BoonGood.",
+  "skits": [
+    {
+      "id": "duo_01_joey_chandler_red_toothbrush",
+      "title": "Bàn chải đỏ và bảng tính lỗi dây chuyền",
+      "participants": ["joey", "chandler"],
+      "episode_ref": "S02E16",
+      "preferred_zone": "desk_chandler",
+      "lines": [
+        {
+          "character_id": "joey",
+          "text": "Ê Chandler, hồi nãy anh mượn file Finance_Models màu đỏ của cậu chỉnh nhẹ mấy con số cho clip quay tối nay nha.",
+          "face_expression": "happy",
+          "body_gesture": "idle_talk"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Mine is the red one! Oh God. Can open, worms everywhere! Cậu đụng vào đúng sheet gốc công thức tính giá vốn của sếp Bông hả?!",
+          "face_expression": "shock",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "joey",
+          "text": "Thì có sao đâu, anh chỉ xóa mấy dấu bằng vì nhìn rối mắt thôi mà. Nó giống xà phòng á, file Excel tự làm sạch được đúng không?",
+          "face_expression": "neutral",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Excel không phải bánh xà phòng! May là anh bấm Ctrl+Z kịp, lần sau muốn thử số thì nói anh tạo bản nháp riêng cho nha đồng chí!",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "head_shake"
+        },
+        {
+          "character_id": "joey",
+          "text": "Ồ, vậy là chưa hư gì hết đúng không? Tuyệt! Vậy trưa nay mình đi ăn pizza ăn mừng đi!",
+          "face_expression": "laugh",
+          "body_gesture": "excited_bounce"
+        }
+      ]
+    },
+    {
+      "id": "duo_02_joey_chandler_cups_game",
+      "title": "Trò bài Cups tài trợ đạo cụ quay video",
+      "participants": ["chandler", "joey"],
+      "episode_ref": "S06E06",
+      "preferred_zone": "foosball_table",
+      "lines": [
+        {
+          "character_id": "joey",
+          "text": "Buồn ghê, anh muốn mua cái đèn ring-light mới quay sản phẩm BoonGood cho lung linh mà ngân sách đạo cụ tháng này cạn mất rồi.",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Nào, qua đây chơi trò 'Cups' với anh. Rút lá này... ôi trời ơi, 'Full Cup'! Anh thua em luôn 500 nghìn tiền mua đèn rồi!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "joey",
+          "text": "Khoan đã! Hồi trước chơi Cups anh cũng thắng y chang vậy nè! Thưởng nhân đôi luôn hả?",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Đúng rồi, 'D Cup' nhân đôi luôn! Cầm lấy sắm đèn quay cho sếp Bông cái clip triệu view đi, đừng thắc mắc luật chơi!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        },
+        {
+          "character_id": "joey",
+          "text": "Haha, công nhận anh có năng khiếu bẩm sinh trò này thật! Cảm ơn bạn thân nha!",
+          "face_expression": "hearts",
+          "body_gesture": "lean_in"
+        }
+      ]
+    },
+    {
+      "id": "duo_03_joey_chandler_all_clothes",
+      "title": "Mặc hết đồng phục để quay Reels",
+      "participants": ["joey", "chandler"],
+      "episode_ref": "S03E02",
+      "preferred_zone": "chick_duck_corner",
+      "lines": [
+        {
+          "character_id": "joey",
+          "text": "Look at me! I'm Chandler! Could I BE wearing any more clothes? Em mặc chồng cả 5 mẫu áo đồng phục BoonGood để quay trend biến hình nè!",
+          "face_expression": "laugh",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Này, đó là toàn bộ áo mẫu phòng anh để dành chụp lookbook đó! Và làm ơn nói với anh là em không 'going commando' khi quay clip công ty nha!",
+          "face_expression": "shock",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "joey",
+          "text": "Yên tâm, anh còn định làm vài động tác lunge khoe độ co giãn vải nữa cho khách thấy chất liệu xịn cỡ nào!",
+          "face_expression": "flirty",
+          "body_gesture": "wave"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Dừng ngay động tác lunge lại trước khi sếp Bông bước qua cửa! Nhưng... công nhận ý tưởng biến hình 15 giây này bắt mắt thật đấy.",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "head_shake"
+        }
+      ]
+    },
+    {
+      "id": "duo_04_joey_chandler_qtip_pricing",
+      "title": "Logic định giá siêu ngây thơ của Joey",
+      "participants": ["joey", "chandler"],
+      "episode_ref": "S02E01",
+      "preferred_zone": "coffee_counter",
+      "lines": [
+        {
+          "character_id": "joey",
+          "text": "Chandler ơi, nếu một hộp bánh vốn 150 nghìn mà mình bán 149 nghìn để khách thấy rẻ, xong bán thật nhiều lên thì cuối tháng mình lời to đúng không?",
+          "face_expression": "happy",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "chandler",
+          "text": "OK. You have to stop the Q-tip when there's resistance! Bán lỗ mỗi hộp 1 nghìn mà bán một vạn hộp thì mình chỉ lỗ... nhanh hơn thôi Joey ạ!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "joey",
+          "text": "Khoan... để anh tính lại coi... 327 cộng 238... ừ ha, vậy là lỗ mất tiền ăn pizza luôn!",
+          "face_expression": "shock",
+          "body_gesture": "head_shake"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Thôi, phần định giá và tính biên lợi nhuận cứ để anh lo, còn cậu chỉ việc nghĩ câu 'How you doin'?' kéo khách xem video là chuẩn bài!",
+          "face_expression": "laugh",
+          "body_gesture": "sip_coffee"
+        }
+      ]
+    },
+    {
+      "id": "duo_05_monica_chandler_maintaining",
+      "title": "Nghệ thuật xoa dịu bà vợ cầu toàn",
+      "participants": ["monica", "chandler"],
+      "episode_ref": "S06E12",
+      "preferred_zone": "desk_monica",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Chandler, nói thật đi, lúc nãy em sửa 4 lần checklist đóng gói của nhà cung cấp, mọi người có nghĩ em quá khó tính và 'high-maintenance' không?",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "chandler",
+          "text": "So, they can say that you're high maintenance, but it's okay, because I like… maintaining you.",
+          "face_expression": "hearts",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "monica",
+          "text": "Ôi trời ơi, anh nói câu đó là em hết giận luôn á! Nhưng vẫn phải dán lại nhãn góc phải bảng lịch vận hành nha!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Đấy, chuẩn Monica rồi! Em cứ lo chuẩn chất lượng cho sếp Bông, còn việc làm em cười cứ giao cho anh.",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "duo_06_monica_chandler_secret_closet",
+      "title": "Phát hiện thư mục rác sau cánh tủ bí mật",
+      "participants": ["chandler", "monica"],
+      "episode_ref": "S08E14",
+      "preferred_zone": "monica_secret_closet",
+      "lines": [
+        {
+          "character_id": "chandler",
+          "text": "Monica ơi, trong Drive công ty mọi thư mục em xếp thẳng tắp, trừ cái folder khóa mật mang tên 'Temp_Do_Not_Open' này... anh vừa mở ra rồi!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "monica",
+          "text": "CHANDLERRRRR! Em đã bảo 'If you love me, you'll just let it go' rồi mà! Đừng nhìn vào đống file nháp chưa phân loại đó!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "chandler",
+          "text": "I married Fred Sanford! Hóa ra nữ hoàng 'Monica-clean' cũng có hẳn một chiếc tủ bí mật giấu 87 bản nháp tên 'Final_v2_REAL_FINAL'!",
+          "face_expression": "laugh",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "monica",
+          "text": "Tại em không biết xếp chúng vào mục nào trong 11 danh mục chuẩn! Thôi đóng lại giùm em trước khi sếp Bông thấy!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "head_shake"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Bí mật giữa hai vợ chồng thôi, anh hứa không mách sếp Bông đâu... miễn là tối nay đừng bắt anh gấp giấy vệ sinh thành hình tam giác!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "shrug"
+        }
+      ]
+    },
+    {
+      "id": "duo_07_monica_chandler_call_it_even",
+      "title": "Hòa giải nhanh sau hai sự cố văn phòng",
+      "participants": ["monica", "chandler"],
+      "episode_ref": "S08E02",
+      "preferred_zone": "purple_door",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Chandler, em có chuyện phải thú nhận... em lỡ mở hộp quà mẫu sếp Bông định để sáng mai quay unboxing mất rồi!",
+          "face_expression": "panic",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Ồ, trùng hợp ghê... anh cũng lỡ bấm gửi sớm bản tin nháp có câu đùa hơi mặn cho nhóm test nội bộ trước giờ hẹn.",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "head_shake"
+        },
+        {
+          "character_id": "monica",
+          "text": "Khoan đã, vậy cả hai đứa mình đều lỡ tay y như vụ quà cưới hồi trước luôn hả? Call it even?",
+          "face_expression": "happy",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Okay! Giờ em gấp lại nơ hộp quà chuẩn từng milimet, còn anh chỉnh lại câu chữ mượt mà trình sếp Bông nhé!",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "duo_08_monica_chandler_seven_steps",
+      "title": "Bảy bước kiểm định sản phẩm kiểu Monica",
+      "participants": ["monica", "chandler"],
+      "episode_ref": "S04E11",
+      "preferred_zone": "orange_sofa",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Nghe em chỉ nè Chandler: kiểm hàng cho BoonGood có đúng 7 bước — 1, 2, 1-2-3, 3, 5, 4, 3-2, 2, 2-4-6, 2-4-6, 4, 2, 2, 4-7, 5-7, 6-7, 7... SEVEN!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Em đang dạy quy trình QC đóng gói hay đang ôn lại bài học lịch sử năm 1998 vậy bà xã? Cả văn phòng đang quay lại nhìn tụi mình kìa!",
+          "face_expression": "shock",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "monica",
+          "text": "I KNOW! Nhưng nhờ thuộc lòng 7 bước đó mà cả tháng nay không có một đơn hàng nào bị móp hộp giao tới tay khách đó!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Rồi rồi, anh giơ 7 ngón tay chịu thua luôn. Em đúng là nữ hoàng vận hành của sếp Bông!",
+          "face_expression": "hearts",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "duo_09_ross_rachel_on_a_break",
+      "title": "Cuộc tranh cãi bất tận về giờ nghỉ giải lao",
+      "participants": ["rachel", "ross"],
+      "episode_ref": "S04E01",
+      "preferred_zone": "coffee_counter",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Ross! Anh bỏ ngang buổi duyệt tem nhãn sản phẩm mới để chạy xuống quầy cà phê nói chuyện khủng long suốt 15 phút luôn hả?",
+          "face_expression": "angry",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "ross",
+          "text": "WE WERE ON A BREAK! Sếp Bông vừa cho nghỉ giải lao 15 phút mà, anh có bỏ họp đâu!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Nghỉ giải lao 5 phút thôi ông Tiến sĩ ơi! Mà anh còn mang nguyên hộp hóa thạch đặt lên bản in thử bao bì của em nữa!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "head_shake"
+        },
+        {
+          "character_id": "ross",
+          "text": "Được rồi, anh cất hóa thạch ngay! Nhưng công nhận bản in tem màu kem lần này của em nhìn thanh lịch lắm đấy Rachel.",
+          "face_expression": "happy",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Hứ, biết nịnh đúng lúc ghê! Quay lại bàn duyệt tiếp với em nào, đừng để em kéo dài chữ 'NOOOO!' nữa nha.",
+          "face_expression": "flirty",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "duo_10_ross_rachel_18_pages",
+      "title": "Bản brief 18 trang trước sau và lỗi chính tả",
+      "participants": ["rachel", "ross"],
+      "episode_ref": "S04E01",
+      "preferred_zone": "desk_ross",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Ross, anh đọc hết bản đề xuất định hướng thương hiệu em gửi tối qua chưa? Anh thấy sao?",
+          "face_expression": "happy",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "ross",
+          "text": "Ồ... ờ... It... does! Ý anh là... nó rất sâu sắc... cực kỳ ấn tượng!",
+          "face_expression": "panic",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Anh chưa đọc hết chứ gì?! You fell a-SLEEP?! Em thức trắng đêm viết đó!",
+          "face_expression": "angry",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "ross",
+          "text": "It was 5:30 in the morning, and you had rambled on for 18 pages! Front and back!! By the way, Y-O-U-apostrophe-R-E means 'you are', Y-O-U-R means 'your'!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Thôi được rồi, cảm ơn anh đã sửa lỗi chính tả giùm em — lần sau em tóm tắt thành 1 trang sạch sẽ lưu thẳng vào 00_Inbox_Drafts cho anh khỏi ngủ gục!",
+          "face_expression": "laugh",
+          "body_gesture": "head_shake"
+        }
+      ]
+    },
+    {
+      "id": "duo_11_ross_rachel_fossil_brush",
+      "title": "Cọ phủi hóa thạch đấu với gu thẩm mỹ",
+      "participants": ["ross", "rachel"],
+      "episode_ref": "S08E14",
+      "preferred_zone": "desk_rachel",
+      "lines": [
+        {
+          "character_id": "ross",
+          "text": "Thật ra mà nói, với tư cách Tiến sĩ, anh thấy font chữ trên hộp quà này hơi mềm mại quá, mình nên dùng kiểu serif cổ điển giống bảng trưng bày bảo tàng...",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Ross, please. If I have a heart attack at a restaurant I want you there with your fossil brush — còn chuyện font chữ bao bì thì để Giám đốc Thiết kế lo nhé!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "ross",
+          "text": "Anh chỉ góp ý khoa học dựa trên khả năng đọc ở khoảng cách 2 mét thôi mà!",
+          "face_expression": "shock",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Okay, no design portfolio, no opinion! Nhưng thôi... tăng cỡ chữ lên 2pt theo ý anh cho dễ đọc cũng hợp lý đó. Đừng cười tự đắc quá nha!",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "duo_12_ross_rachel_off_the_plane",
+      "title": "Khoảnh khắc dịu dàng cuối ngày của cặp Tôm Hùm",
+      "participants": ["rachel", "ross"],
+      "episode_ref": "S10E18",
+      "preferred_zone": "purple_door",
+      "lines": [
+        {
+          "character_id": "ross",
+          "text": "Rachel? Anh tưởng em về sớm đi hẹn trà chiều ở quận 1 rồi chứ?",
+          "face_expression": "shock",
+          "body_gesture": "idle_talk"
+        },
+        {
+          "character_id": "rachel",
+          "text": "I got off the plane... ý em là em hủy hẹn quay lại văn phòng vì nhớ ra anh vẫn đang rà hồ sơ pháp lý một mình cho sếp Bông.",
+          "face_expression": "hearts",
+          "body_gesture": "wave"
+        },
+        {
+          "character_id": "ross",
+          "text": "Thật hả? Em mang theo cà phê cho anh luôn kìa... Cảm ơn em, Rachel. Không ai hiểu tính kỹ càng của anh bằng em đâu.",
+          "face_expression": "happy",
+          "body_gesture": "sip_coffee"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Đừng khóc nhé ông Tiến sĩ! Nào, làm nhanh nốt phần ghi nhãn sản phẩm rồi tụi mình cùng đi ăn tối.",
+          "face_expression": "flirty",
+          "body_gesture": "lean_in"
+        }
+      ]
+    },
+    {
+      "id": "duo_13_ross_monica_geller_cup",
+      "title": "Chiến trường Geller Cup giữa giờ làm việc",
+      "participants": ["monica", "ross"],
+      "episode_ref": "S03E09",
+      "preferred_zone": "foosball_table",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Ross, tuần này tỷ lệ hoàn thành checklist của đội em là 100%, hơn đội nghiên cứu của anh hẳn 2%. Em xứng đáng giữ chiếc Geller Cup trên bàn!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "ross",
+          "text": "Hứ! Em chỉ thắng vì sếp Bông chưa tính điểm độ khó học thuật của báo cáo pháp lý thôi! *thở hắt ra*",
+          "face_expression": "angry",
+          "body_gesture": "head_shake"
+        },
+        {
+          "character_id": "monica",
+          "text": "Why can't you just accept that we're winning because I'm better than you? Oh, what a great argument. Exhaling!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "ross",
+          "text": "Được lắm! Đợi đó, tuần sau anh nộp bản phân tích đối thủ xuất sắc đến mức sếp Bông phải khắc tên Tiến sĩ Ross lên cúp troll này luôn!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "hands_up_panic"
+        }
+      ]
+    },
+    {
+      "id": "duo_14_ross_monica_the_routine",
+      "title": "Điệu nhảy The Routine cho buổi ra mắt sản phẩm",
+      "participants": ["ross", "monica"],
+      "episode_ref": "S06E10",
+      "preferred_zone": "orange_sofa",
+      "lines": [
+        {
+          "character_id": "ross",
+          "text": "Monica, Joey bảo livestream ra mắt bộ quà mới của BoonGood cần tiết mục mở màn gây sốc. Hay hai anh em mình nhảy điệu Robot đi?",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "monica",
+          "text": "Ross, I think we should stick to the routine, we don't wanna look stupid! Bài vũ đạo lớp 8 'The Routine' của tụi mình mới thực sự đẳng cấp!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "ross",
+          "text": "Đúng rồi! Từng đạt giải khuyến khích hạng mục anh em cơ mà! Năm, sáu, bảy, tám — xoay vai, đập tay, nhảy bật!",
+          "face_expression": "laugh",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "monica",
+          "text": "Đỉnh cao! Chắc chắn sếp Bông xem xong sẽ duyệt cho tụi mình đứng ngay trung tâm khung hình luôn!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "duo_15_ross_monica_pile_of_coats",
+      "title": "Màn đấu tố bí mật nhà Geller",
+      "participants": ["monica", "ross"],
+      "episode_ref": "S10E11",
+      "preferred_zone": "desk_monica",
+      "lines": [
+        {
+          "character_id": "ross",
+          "text": "Monica, anh nói nhẹ thôi nha, hồi nãy sếp Bông hỏi ai làm kẹt máy in nhãn — anh không có mách là do em đâu!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "monica",
+          "text": "Ồ thế hả? Vậy em cũng không kể cho sếp Bông nghe chuyện 'Hurricane Gloria didn't break the porch swing' hay chuyện hồi đại học anh từng bị từ chối bài báo đâu nha!",
+          "face_expression": "angry",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "ross",
+          "text": "Đình chiến! Đình chiến ngay lập tức! Nếu hai anh em mình tiếp tục bóc phốt nhau thì lại nhớ tới vụ 'đống áo khoác' mất!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "monica",
+          "text": "I WAS the pile of coats! Đừng nhắc nữa ghê quá! Thôi bắt tay giữ bí mật rồi quay về làm báo cáo cho sếp Bông đi!",
+          "face_expression": "shock",
+          "body_gesture": "head_shake"
+        }
+      ]
+    },
+    {
+      "id": "duo_16_phoebe_joey_monthly_meeting",
+      "title": "Cuộc họp kín hàng tháng của liên minh ngoài cuộc",
+      "participants": ["phoebe", "joey"],
+      "episode_ref": "S07E11",
+      "preferred_zone": "coffee_counter",
+      "lines": [
+        {
+          "character_id": "phoebe",
+          "text": "Joey, đến lịch họp kín hàng tháng của hai tụi mình để đánh giá bốn người kia rồi đó. Tháng này em chấm điểm ai cao nhất?",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "joey",
+          "text": "Ừm... Chandler tháng này mua bánh cho anh hai lần nên được cộng điểm, còn Monica cứ giấu hộp bánh mẫu kỹ quá làm anh mất cảm hứng!",
+          "face_expression": "neutral",
+          "body_gesture": "idle_talk"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Duly noted! Chị ghi sổ hết rồi. Còn sếp Bông thì khỏi chấm, điểm mười tuyệt đối vì lúc nào cũng chiều ý tưởng sáng tạo của hai đứa mình!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "joey",
+          "text": "Chuẩn luôn! À mà họp xong mình đi ăn tối nhớ gọi thêm phần gà rán... ủa quên, phần salad xanh cho chị nữa nhé!",
+          "face_expression": "laugh",
+          "body_gesture": "excited_bounce"
+        }
+      ]
+    },
+    {
+      "id": "duo_17_phoebe_joey_french_lesson",
+      "title": "Luyện giọng Pháp cho video quảng cáo cao cấp",
+      "participants": ["phoebe", "joey"],
+      "episode_ref": "S10E13",
+      "preferred_zone": "desk_joey",
+      "lines": [
+        {
+          "character_id": "phoebe",
+          "text": "Nào Joey, để quay video giới thiệu bộ quà phong cách Paris cho sếp Bông, đọc theo chị từng âm tiết nha: Je — m'ap — pelle — Claude.",
+          "face_expression": "happy",
+          "body_gesture": "idle_talk"
+        },
+        {
+          "character_id": "joey",
+          "text": "Je... m'ap... pelle... Claude. Dễ ợt! Ghép lại nha: Je de coup Clow!",
+          "face_expression": "flirty",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Không, Joey! Em không nói tiếng Pháp, em đang phát ra những âm thanh vô nghĩa! Thử lại: Je m'appelle Claude!",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "head_shake"
+        },
+        {
+          "character_id": "joey",
+          "text": "Je te flouppe Fli! Me pooh pooh! Em đọc y chang chị luôn rồi mà!",
+          "face_expression": "happy",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Thôi được rồi... để chị hóa thân thành Regine Phalange nói nhỏ với sếp Bông cho em quay phiên bản tiếng Việt siêu dễ thương vậy!",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "duo_18_phoebe_joey_fake_identities",
+      "title": "Màn bắt tay Ken Adams và Regina Phalange",
+      "participants": ["joey", "phoebe"],
+      "episode_ref": "S08E04",
+      "preferred_zone": "purple_door",
+      "lines": [
+        {
+          "character_id": "joey",
+          "text": "Phoebe ơi, chiều nay mình đi khảo sát thực tế mấy quán bánh đối thủ, đừng xưng tên thật nha. Anh sẽ dùng tên giả: Hi, I'm Ken Adams!",
+          "face_expression": "flirty",
+          "body_gesture": "wave"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "*bắt tay cực nghiêm túc* Regina Phalange! Rất hân hạnh, tôi là nữ doanh nhân vừa để quên sổ Filofax ở Phòng họp B.",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "joey",
+          "text": "Đỉnh chưa! Nếu nhân viên quán hỏi chuyện, anh sẽ kể câu chuyện đi du lịch bụi Tây Âu dưới chân núi Tibidabo ngoại ô Barcelona!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Cẩn thận kẻo gặp lại cô bạn Irene rồi lộ luôn bí kíp! Thôi đi nào Ken Adams, mang tin xịn về cho sếp Bông nhé!",
+          "face_expression": "laugh",
+          "body_gesture": "point"
+        }
+      ]
+    },
+    {
+      "id": "duo_19_phoebe_ross_evolution_trap",
+      "title": "Bẫy logic dữ liệu đối đầu trực giác tâm linh",
+      "participants": ["ross", "phoebe"],
+      "episode_ref": "S02E03",
+      "preferred_zone": "desk_ross",
+      "lines": [
+        {
+          "character_id": "ross",
+          "text": "Phoebe, anh mang cả 'a briefcase of facts' với biểu đồ hành vi khách hàng ra đây rồi. Em không thể bác bỏ số liệu thống kê được!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Số liệu cũng hay đấy, nhưng chẳng lẽ không có một 'teeny, tiny possibility' nào rằng khách mua hộp quà BoonGood đơn giản vì năng lượng của nó dễ thương sao?",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "ross",
+          "text": "Ờ... về mặt xác suất khoa học thì... there might be... a teeny... tiny... possibility...",
+          "face_expression": "panic",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "I can't believe you caved! Anh vừa vứt bỏ cả hệ thống niềm tin khoa học của mình! How are you going to face the other science guys?!",
+          "face_expression": "angry",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "ross",
+          "text": "Is there blood coming out of my ears?! Lần nào tranh luận với em anh cũng sập bẫy y chang nhau!",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "head_shake"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Oh, that was fun! So who's hungry? Đi ăn trưa thôi Tiến sĩ!",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "duo_20_phoebe_ross_pink_bike",
+      "title": "Chiếc xe đạp hồng và tinh thần sản phẩm",
+      "participants": ["ross", "phoebe"],
+      "episode_ref": "S07E09",
+      "preferred_zone": "desk_phoebe",
+      "lines": [
+        {
+          "character_id": "phoebe",
+          "text": "Ross ơi, em viết xong mẫu thiệp cảm ơn mới rồi mà run quá không dám bấm gửi cho sếp Bông duyệt, sợ nó bay bổng quá...",
+          "face_expression": "panic",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "ross",
+          "text": "Nghe anh nói này Phoebe: bản thiệp này giống chiếc xe đạp màu hồng gắn tua rua cầu vồng vậy. This idea wants to be sent, and if you don't send it, you're killing its spirit! It is dying!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Ôi trời ơi, không được để linh hồn tấm thiệp chết yểu! Em bấm lưu vào 00_Inbox_Drafts liền đây!",
+          "face_expression": "shock",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "ross",
+          "text": "Haha, biết ngay nói theo ngôn ngữ tâm linh của em là có tác dụng liền mà. Sếp Bông đọc sẽ thích mê cho xem!",
+          "face_expression": "hearts",
+          "body_gesture": "idle_talk"
+        }
+      ]
+    },
+    {
+      "id": "duo_21_phoebe_ross_gravity_science_boy",
+      "title": "Trọng lực và cuốn truyện Science Boy",
+      "participants": ["phoebe", "ross"],
+      "episode_ref": "S09E15",
+      "preferred_zone": "orange_sofa",
+      "lines": [
+        {
+          "character_id": "phoebe",
+          "text": "Don't get me started on gravity. Lately I get the feeling that I'm not so much being pulled down as I am being pushed — nhất là vào chiều thứ Sáu!",
+          "face_expression": "dreamy_sing",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "ross",
+          "text": "Lại nữa rồi! Mà khoan, sao em luôn biết cách chọc anh muốn nổ đầu mà anh vẫn không giận nổi nhỉ?",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "head_shake"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Tại vì hồi 14 tuổi chị từng cướp cặp anh nhưng vẫn giữ gìn cuốn truyện 'Science Boy' phẳng phiu trả lại anh đó! Ân tình sâu nặng lắm!",
+          "face_expression": "laugh",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "ross",
+          "text": "Thật ra chuyện đó... ấm áp thật đấy. Cảm ơn em, Pheebs — giờ thì để anh pha cho em tách trà thảo mộc nhé.",
+          "face_expression": "hearts",
+          "body_gesture": "sip_coffee"
+        }
+      ]
+    },
+    {
+      "id": "duo_22_rachel_monica_phone_pen",
+      "title": "Cây bút bàn làm việc và kẹo marshmallow",
+      "participants": ["monica", "rachel"],
+      "episode_ref": "S06E06",
+      "preferred_zone": "desk_rachel",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Rachel! Cây bút màu vàng đặt cố định cạnh máy in lại biến mất rồi! Có phải em lấy ghi mã màu Pantone lên mu bàn tay rồi ngủ quên không?",
+          "face_expression": "angry",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Thôi nào Monica, em chỉ mượn 2 phút ghi chú ý tưởng cho sếp Bông thôi mà! Còn chị hôm qua còn xếp kẹo trong hũ pantry thành vòng tròn đồng tâm đó!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "monica",
+          "text": "Xếp hình vòng tròn đồng tâm nhìn mới chuyên nghiệp chuẩn khách sạn 5 sao chứ! Còn cái hộp mẫu trên bàn em, chị muốn dán nhãn 'What were you thinking?' quá!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Haha, chỉ có chị mới vừa mắng em vừa âm thầm xếp lại bảng màu gọn gàng cho em thôi. Thương bạn thân nhất văn phòng!",
+          "face_expression": "hearts",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "duo_23_rachel_monica_bloomingdales_betrayal",
+      "title": "Nghi án âm thầm đổi gu thiết kế",
+      "participants": ["rachel", "monica"],
+      "episode_ref": "S02E02",
+      "preferred_zone": "coffee_counter",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Monica, nghe nói sáng nay chị đi chọn ruy-băng gói quà với nhà cung cấp mà không rủ em à? Oh, I'm sorry. Did my back hurt your knife?",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "monica",
+          "text": "Ơ không phải như em nghĩ đâu! Chị chỉ tiện đường đi kiểm tra độ bền giấy gói thôi, chị có dám chốt màu nào khi chưa có mắt thẩm mỹ của em đâu!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Thật không đó? Không có lén chọn màu xanh neon phản quang chứ?",
+          "face_expression": "shock",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "monica",
+          "text": "Trời ơi ai dám! Chị mang đủ 6 mẫu dây ruy-băng pastel về để em chọn cho sếp Bông duyệt nè!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "duo_24_rachel_monica_emma_name",
+      "title": "Tình chị em tri kỷ và cái tên tâm huyết",
+      "participants": ["rachel", "monica"],
+      "episode_ref": "S08E24",
+      "preferred_zone": "orange_sofa",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Monica ơi, em đang bí tên cho dòng hộp quà phiên bản giới hạn mới của sếp Bông. Cái tên em thích nhất thì lại giống tên dự án chị ấp ủ từ lâu...",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "monica",
+          "text": "Take it. It's clearly meant for your collection. Em cứ lấy tên đó đặt cho bộ sưu tập mới đi!",
+          "face_expression": "hearts",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Chị chắc chứ? Chị thích cái tên đó lắm mà?",
+          "face_expression": "shock",
+          "body_gesture": "idle_talk"
+        },
+        {
+          "character_id": "monica",
+          "text": "Yeah, but I love you more. Ngoài ra, bộ sưu tập của em mang tên đó là hợp gu sếp Bông nhất luôn!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        }
+      ]
+    },
+    {
+      "id": "duo_25_rachel_chandler_cheesecake",
+      "title": "Vụ ăn vụng bánh cheesecake mẫu ở hành lang",
+      "participants": ["chandler", "rachel"],
+      "episode_ref": "S07E11",
+      "preferred_zone": "purple_door",
+      "lines": [
+        {
+          "character_id": "chandler",
+          "text": "Rachel, chiếc bánh cheesecake thử nghiệm của Mama's Little Bakery vừa rớt xuống khay sạch ngoài hành lang... mình không thể để phí món kiệt tác này được!",
+          "face_expression": "flirty",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Suỵt! Nói nhỏ thôi kẻo Monica nghe thấy! Nếm thử đúng một miếng để kiểm tra độ béo báo cáo sếp Bông nha... ôi ngon xỉu!",
+          "face_expression": "hearts",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Này này, phần kem phía bên trái là của anh! Stick to your side!",
+          "face_expression": "angry",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Phần của em bị nghiêng sang bên anh chứ bộ! Thôi chia đôi công bằng rồi lát ghi chú rõ vị béo ngậy vào báo cáo sản phẩm nha!",
+          "face_expression": "laugh",
+          "body_gesture": "shrug"
+        }
+      ]
+    },
+    {
+      "id": "duo_26_rachel_chandler_transponster",
+      "title": "Truy tìm chức danh thật của Chandler",
+      "participants": ["rachel", "chandler"],
+      "episode_ref": "S04E12",
+      "preferred_zone": "desk_chandler",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Chandler ơi, em đang thiết kế namecard mới cho cả phòng. Chức danh chính xác của anh là... Transponster hay Ms. Chanandler Bong?",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "idle_talk"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Cảm ơn em đã nhắc lại nỗi đau 10 năm! Trên tạp chí TV Guide mới là 'Ms. Chanandler Bong', còn ở văn phòng sếp Bông anh là Dữ liệu, Tài chính & Copywriting!",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "head_shake"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Hihi đùa chút thôi! Em thiết kế card cho anh tối giản, sang trọng cực kỳ, cầm đi gặp đối tác là auto chốt hợp đồng!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Could this business card BE any slicker? Cho anh đặt luôn 200 tấm, hứa không trêu vụ bánh Trifle thịt bò trong cả tuần này!",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "duo_27_rachel_joey_moo_point",
+      "title": "Triết lý Ý kiến con bò trong cuộc họp",
+      "participants": ["rachel", "joey"],
+      "episode_ref": "S07E08",
+      "preferred_zone": "orange_sofa",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Joey ơi, mình phân vân quá: nếu khách hàng chưa thích mẫu hộp tròn này, thì mình nên đổi màu ruy-băng xanh hay vàng nhỉ?",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "joey",
+          "text": "Nếu họ đã không thích hộp tròn thì chuyện chọn ruy-băng xanh hay vàng chỉ là một 'moo point' thôi Rachel ạ.",
+          "face_expression": "neutral",
+          "body_gesture": "idle_talk"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Khoan... 'moo point' hả? Ý em là 'moot point' chứ gì?",
+          "face_expression": "shock",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "joey",
+          "text": "Không, 'moo point'! It's like a cow's opinion. It just doesn't matter. It's 'moo'. Đổi hẳn sang hộp vuông luôn cho sếp Bông duyệt!",
+          "face_expression": "happy",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Ê... sao mình ở gần Joey lâu quá rồi hay sao mà nghe câu 'ý kiến con bò' lại thấy hợp lý ghê ta?! Chốt phương án hộp vuông!",
+          "face_expression": "laugh",
+          "body_gesture": "excited_bounce"
+        }
+      ]
+    },
+    {
+      "id": "duo_28_rachel_joey_hugsy_prop",
+      "title": "Cuộc chiến mượn chim cánh cụt Hugsy chụp ảnh",
+      "participants": ["rachel", "joey"],
+      "episode_ref": "S09E17",
+      "preferred_zone": "desk_joey",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Joey, cho chị mượn chú chim cánh cụt Hugsy 10 phút làm đạo cụ chụp góc ấm cúng cho bộ ảnh mùa đông BoonGood nhé!",
+          "face_expression": "flirty",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "joey",
+          "text": "*bịt tai Hugsy* Suỵt! Đừng gọi cậu ấy là đạo cụ trước mặt cậu ấy! Đây là Original Hugsy, không phải Crappy Hugsy đâu nha!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Trời ơi, có phải chị lấy mất luôn đâu! Hồi trước em còn giành Hugsy từ tay bé Emma mà!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "joey",
+          "text": "How do you think I got him in the first place? Thôi được, cho mượn 10 phút nhưng phải chụp góc mặt đẹp nhất của Hugsy cho sếp Bông xem đó!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "duo_29_rachel_phoebe_pottery_barn",
+      "title": "Đạo cụ cổ điển hay hàng chuỗi Pottery Barn",
+      "participants": ["phoebe", "rachel"],
+      "episode_ref": "S06E11",
+      "preferred_zone": "desk_rachel",
+      "lines": [
+        {
+          "character_id": "phoebe",
+          "text": "Ôi Rachel ơi, cái kệ gỗ bày sản phẩm mới góc văn phòng đẹp xuất sắc! Em mua ở tiệm đồ cổ thủ công nào mà đầy linh hồn thế?",
+          "face_expression": "hearts",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "rachel",
+          "text": "À... ừm... đồ cổ từ thời... yore và yesteryear đó chị! Chỉ có đúng một chiếc duy nhất!",
+          "face_expression": "panic",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Khoan đã, sao bên dưới đáy kệ có tem mã vạch của chuỗi siêu thị nội thất giống Pottery Barn vậy Rachel?!",
+          "face_expression": "shock",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Bị phát hiện rồi! Nhưng nó tiết kiệm 60% ngân sách trưng bày cho sếp Bông mà chụp ảnh lên sang xỉu luôn, chị bỏ qua cho em nha!",
+          "face_expression": "laugh",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Thôi vì tiết kiệm cho sếp Bông nên chị tạm tha! Nhưng để chị đặt thêm lọ hoa khô thủ công lên cho có linh hồn nha!",
+          "face_expression": "happy",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "duo_30_rachel_phoebe_pheebs_nickname",
+      "title": "Bí ẩn biệt danh Pheebs trong văn phòng",
+      "participants": ["phoebe", "rachel"],
+      "episode_ref": "S04E14",
+      "preferred_zone": "desk_phoebe",
+      "lines": [
+        {
+          "character_id": "rachel",
+          "text": "Pheebs ơi, chị xem giúp em câu chúc in trên thiệp cảm ơn khách VIP lần này đã đủ ấm áp chưa?",
+          "face_expression": "happy",
+          "body_gesture": "idle_talk"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Aww, Pheebs! Chữ viết đẹp mà lời chúc dễ thương xỉu luôn á Pheebs!",
+          "face_expression": "hearts",
+          "body_gesture": "wave"
+        },
+        {
+          "character_id": "rachel",
+          "text": "Ủa khoan... sao chị lại gọi em là Pheebs? 'Pheebs' là tên viết tắt của Phoebe mà!",
+          "face_expression": "shock",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "That's short for Phoebe? I thought that's just what we called each other! Thôi không sao, gọi sao cũng được miễn khách mở thiệp ra thấy vui là chuẩn!",
+          "face_expression": "laugh",
+          "body_gesture": "shrug"
+        }
+      ]
+    },
+    {
+      "id": "duo_31_monica_joey_fake_firing",
+      "title": "Diễn kịch lập uy vận hành trước đối tác",
+      "participants": ["monica", "joey"],
+      "episode_ref": "S04E10",
+      "preferred_zone": "desk_monica",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Joey, xưởng giao hàng hôm nay hơi lơ là quy chuẩn đóng gói. Lúc đối tác tới, em diễn phụ chị một cảnh cứng rắn giống hồi ở nhà hàng Alessandro's nha!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "joey",
+          "text": "Chuyện nhỏ, em là diễn viên chuyên nghiệp mà! *vào vai ngay lập tức* Well I guess I should've thought about my wife and kids before I talked back to Chef Geller!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "monica",
+          "text": "Haha diễn sâu quá mức rồi đó Dragon! Chỉ cần cho họ thấy tiêu chuẩn chất lượng của BoonGood là không thể thỏa hiệp thôi!",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        },
+        {
+          "character_id": "joey",
+          "text": "Ok luôn! Diễn xong thưởng em hai miếng lasagna nhà làm là hòa vốn nha bếp trưởng!",
+          "face_expression": "hearts",
+          "body_gesture": "excited_bounce"
+        }
+      ]
+    },
+    {
+      "id": "duo_32_monica_joey_thanksgiving_pants",
+      "title": "Thử nếm sản phẩm mới và quần ăn buffet",
+      "participants": ["joey", "monica"],
+      "episode_ref": "S08E09",
+      "preferred_zone": "coffee_counter",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Joey, hôm nay có 8 mẫu bánh thử nghiệm từ bếp gửi lên để sếp Bông chọn vị chủ lực. Em chỉ nếm mỗi vị một miếng nhỏ thôi nha!",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "joey",
+          "text": "Chị nhìn kỹ đi, hôm nay em mặc hẳn quần co giãn huyền thoại từ vụ gà tây 19 pound đó! Mà nhớ quy tắc: JOEY DOESN'T SHARE FOOD!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        },
+        {
+          "character_id": "monica",
+          "text": "Em ăn hết thì lấy gì sếp Bông nếm?! Để chị chia sẵn 8 hộp nhỏ dán nhãn từng vị, phần thừa mới dành cho em!",
+          "face_expression": "angry",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "joey",
+          "text": "Chốt kèo! Miễn có phần thừa là em chấm điểm vị giác trung thực nhất quả đất luôn!",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        }
+      ]
+    },
+    {
+      "id": "duo_33_monica_phoebe_no_plan",
+      "title": "Sơ đồ Gantt 20 bước đấu với I don't even have a pla-",
+      "participants": ["monica", "phoebe"],
+      "episode_ref": "S01E04",
+      "preferred_zone": "desk_phoebe",
+      "lines": [
+        {
+          "character_id": "monica",
+          "text": "Phoebe, sáng thứ Hai rồi, chị đã có bản kế hoạch trải nghiệm mở hộp chi tiết theo từng tuần cho quý tới chưa?",
+          "face_expression": "obsessive_intense",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "I don't even have a pla-. Chị đang chờ vũ trụ gửi tín hiệu cảm hứng đã, thúc ép quá là ý tưởng nó bỏ chạy mất!",
+          "face_expression": "dreamy_sing",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "monica",
+          "text": "Vũ trụ không có deadline nộp cho sếp Bông vào thứ Sáu đâu Phoebe! Thôi ngồi đây, chị kẻ sẵn 3 ô lớn rồi em điền ý tưởng bay bổng vào nhé!",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "lean_in"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Ôi nghe hợp lý ghê! Có khung của Monica với năng lượng sáng tạo của Phoebe là tụi mình vô địch thiên hạ!",
+          "face_expression": "happy",
+          "body_gesture": "excited_bounce"
+        }
+      ]
+    },
+    {
+      "id": "duo_34_chandler_ross_spray_tan",
+      "title": "Thảm họa nhuộm da và mặt trời",
+      "participants": ["ross", "chandler"],
+      "episode_ref": "S10E03",
+      "preferred_zone": "chick_duck_corner",
+      "lines": [
+        {
+          "character_id": "ross",
+          "text": "Chandler, nhìn kỹ mặt anh coi — sáng nay đi sự kiện ngành hàng ngoài trời anh mới thử xịt chống nắng nâng tông, trông ổn không?",
+          "face_expression": "neutral",
+          "body_gesture": "idle_talk"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Hold on... anh vừa đi đâu về vậy? Was that place, THE SUN? Phía trước mặt anh đậm gấp 4 lần phía sau gáy luôn kìa!",
+          "face_expression": "laugh",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "ross",
+          "text": "Tại hướng dẫn bảo đếm đến 5 rồi xoay mà không nói đếm kiểu nào! Mississippilessly?! Ai mà biết được!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Chúc mừng ông bạn, ít ra anh còn có lý do tắt camera lúc họp Zoom chiều nay. Để anh pha cà phê cho tỉnh táo nhé!",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "sip_coffee"
+        }
+      ]
+    },
+    {
+      "id": "duo_35_chandler_phoebe_backup_plan",
+      "title": "Kế hoạch dự phòng và báo cáo WENUS",
+      "participants": ["phoebe", "chandler"],
+      "episode_ref": "S06E25",
+      "preferred_zone": "desk_chandler",
+      "lines": [
+        {
+          "character_id": "chandler",
+          "text": "Phoebe, sao trong bản đề xuất CSKH em nộp sếp Bông lại có tới tận Plan A, Plan B và cả Plan C vậy?",
+          "face_expression": "smirk_sarcastic",
+          "body_gesture": "idle_talk"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Of course I do! It's just good sense to backup your backup! Look, I've already lost you to Monica rồi còn gì!",
+          "face_expression": "laugh",
+          "body_gesture": "point"
+        },
+        {
+          "character_id": "chandler",
+          "text": "Haha touché! Thực ra làm tài chính như anh lại cực kỳ thích tư duy quản trị rủi ro đó — ít nhất còn đỡ chán hơn mấy tờ WENUS hồi xưa!",
+          "face_expression": "happy",
+          "body_gesture": "sip_coffee"
+        },
+        {
+          "character_id": "phoebe",
+          "text": "Vậy thì anh duyệt ngân sách cho Plan B mua thiệp hạt giống nảy mầm tặng khách luôn nha Chandler!",
+          "face_expression": "hearts",
+          "body_gesture": "excited_bounce"
+        }
+      ]
+    },
+    {
+      "id": "duo_36_ross_joey_paste_pants",
+      "title": "Sự cố quần da và giải pháp vá lỗi Paste Pants",
+      "participants": ["ross", "joey"],
+      "episode_ref": "S05E11",
+      "preferred_zone": "desk_ross",
+      "lines": [
+        {
+          "character_id": "ross",
+          "text": "Joey! Cứu anh! Anh vừa thử ghép hai bảng dữ liệu đối thủ bằng cách cài thêm tiện ích lạ, giờ nó kẹt cứng giống hệt vụ quần da: the lotion and the powder have made a paste!",
+          "face_expression": "panic",
+          "body_gesture": "hands_up_panic"
+        },
+        {
+          "character_id": "joey",
+          "text": "Bình tĩnh Ross! Hồi đó anh bày rồi: if the paste matches the pants, you can make yourself a pair of paste pants! Ý là cứ chụp màn hình lại gửi luôn?",
+          "face_expression": "happy",
+          "body_gesture": "shrug"
+        },
+        {
+          "character_id": "ross",
+          "text": "Không thể gửi ảnh chụp màn hình mờ căm lên Google Sheets của sếp Bông được Joey ơi! Phải xuất dữ liệu sạch sẽ vào tab Market_Data!",
+          "face_expression": "facepalm_tired",
+          "body_gesture": "head_shake"
+        },
+        {
+          "character_id": "joey",
+          "text": "À hiểu rồi! Vậy gọi Chandler sang gỡ cho nhanh, trong lúc đó anh kể chuyện vui cho cậu đỡ lên cơn Red Ross nha!",
+          "face_expression": "laugh",
+          "body_gesture": "wave"
+        }
+      ]
+    }
+  ]
+}
