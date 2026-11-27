@@ -40,7 +40,7 @@ export class SceneManager {
     this.controls.maxPolarAngle = Math.PI * 0.485;
     this.controls.minPolarAngle = Math.PI * 0.14;
     this.controls.minDistance = 1.45;
-    this.controls.maxDistance = 18;
+    this.controls.maxDistance = 24;
     this.controls.target.set(0, 0.95, 0);
 
     // Smooth camera lerp state
@@ -61,12 +61,12 @@ export class SceneManager {
 
     // 2. Key directional sunlight from upper front-right (soft vinyl figure modeling)
     this.keyLight = new THREE.DirectionalLight('#fff2df', 1.55);
-    this.keyLight.position.set(5.5, 9.5, 7.0);
+    this.keyLight.position.set(6.5, 11.5, 8.0);
     this.keyLight.castShadow = true;
     this.keyLight.shadow.mapSize.set(1024, 1024);
     this.keyLight.shadow.camera.near = 1;
-    this.keyLight.shadow.camera.far = 26;
-    const d = 8.5;
+    this.keyLight.shadow.camera.far = 34;
+    const d = 11.5;
     this.keyLight.shadow.camera.left = -d;
     this.keyLight.shadow.camera.right = d;
     this.keyLight.shadow.camera.top = d;

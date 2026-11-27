@@ -19,20 +19,22 @@ export class TopToolbar {
 
   render() {
     const lightLabel = this.lightingMode === 'evening' ? '🌙 Tối chill' : '☀️ Ban ngày';
+    const subLabel = this.studioActive ? 'Studio Inspect' : 'Central Perk × BoonGood';
+    const studioBtnLabel = this.studioActive ? '🏢 Về Văn phòng' : '🎭 Studio';
     this.container.innerHTML = `
       <div class="toolbar-group">
         <div class="brand-pill">
           <span class="brand-mark" aria-hidden="true"></span>
           <h1 class="brand-title">Boongood × Friends</h1>
-          <span class="brand-sub">Milestone 1 · Studio</span>
+          <span class="brand-sub">${subLabel}</span>
         </div>
       </div>
       <div class="toolbar-group">
         <button id="btn-lighting-toggle" class="tool-btn" type="button" title="Đổi ánh sáng ngày / tối">
           ${lightLabel}
         </button>
-        <button id="btn-studio-toggle" class="tool-btn ${this.studioActive ? 'active' : ''}" type="button" title="Chế độ soi cận mặt & kiểm thử nhân vật">
-          🎭 Studio
+        <button id="btn-studio-toggle" class="tool-btn ${this.studioActive ? 'active' : ''}" type="button" title="Chuyển đổi Văn phòng 3D và chế độ Studio soi cận mặt">
+          ${studioBtnLabel}
         </button>
       </div>
     `;
